@@ -8,5 +8,29 @@ Add this formula in the cell `A1` of a blank google sheet. You can learn more on
 
 `=importhtml("https://rajexcise.gov.in/RSBCL-Price-List.aspx", "table", 22)`
 
-Use [PapaParse.js](https://www.papaparse.com/) and [Datatable.js](https://datatables.net) to generate a [page!](https://ram-arrowebs.github.io/rajalcoholprices/)
+At this point, intelligent data is now available from Google Sheet which can be consumed in many ways. Here [PapaParse.js](https://www.papaparse.com/) and [Datatable.js](https://datatables.net) are used to generate a [page hosted right here on github!](https://ram-arrowebs.github.io/rajalcoholprices/)
 
+This project has just a single file and all the scripts are referenced from publicly avaiable CDNs.
+
+#### Data (and the issues therein)
+
+The header with wrapped content on the header of the last column forced ignoring the header altogether and the column with the serial numbering is of no use either.
+
+`https://docs.google.com/spreadsheets/d/`**`[GOOGLE_SHEETS_ID]`**`/gviz/tq?tqx=out:csv&sheet=data&range=`**`B2:D`**
+
+#### PapaParse and Datatable
+
+Datatable is used as presentation layer and the PapaParse fetches data from Google Sheets CSV output, converts into JSON and feeds into Datatable. All in a single line of code
+
+    Papa.parse(google_sheet_csv, {
+        download: true,
+        complete: function(results) {           
+            $('#DataTable').DataTable({
+                "data": results.data
+            });
+        }
+    });
+
+With a little bit of styling for alignment and clutter;
+
+https://ram-arrowebs.github.io/rajalcoholprices/
