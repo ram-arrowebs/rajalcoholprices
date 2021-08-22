@@ -34,3 +34,7 @@ Datatable is used as presentation layer and the PapaParse fetches data from Goog
 With a little bit of styling for alignment and clutter;
 
 https://ram-arrowebs.github.io/rajalcoholprices/
+
+#### Next Steps
+
+Create a manifest to make this a PWA with an ability to add it to Home Screen!
