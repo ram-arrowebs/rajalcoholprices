@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta http-equiv="”Pragma”" content="”no-cache”">
+    <meta http-equiv="”Expires”" content="”-1″">
+    <meta http-equiv="”CACHE-CONTROL”" content="”NO-CACHE”">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Alcohol Price List - Rajasthan, India</title>
+    <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.10.25/css/jquery.dataTables.css">
+  </head>
+
+  <body>
+    <div id="root">
+        <!-- let's bring the table here -->
+        <table id="rajprice" class="display compact" style="width:100%">
+            <thead>
+                <tr>
+                    <th>Item</th>
+                    <th>Packing</th>
+                    <th class="dt-right">Price</th>
+                </tr>
+            </thead>
+        </table>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script type="text/javascript" charset="utf8" src="https://cdn.datatables.net/1.10.25/js/jquery.dataTables.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/5.3.1/papaparse.min.js" integrity="sha512-EbdJQSugx0nVWrtyK3JdQQ/03mS3Q1UiAhRtErbwl1YL/+e2hZdlIcSURxxh7WXHTzn83sjlh2rysACoJGfb6g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script type="text/javascript">
+        var govdata = "https://docs.google.com/spreadsheets/d/1-4Wuz9_s0cLb1KLFt3f4q6LHrFPH1BALb67L88vbIW8/gviz/tq?tqx=out:csv&sheet=data&range=B2:D";
+        $(document).ready(function() {
+
+            Papa.parse(govdata, {
+                download: true,
+                complete: function(results) {           
+                    feedDataTable(results.data);
+                }
+            });
+        } );
+
+        function feedDataTable(dataSet) {
+            $('#rajprice').DataTable({
+                "data": dataSet,
+                "pageLength": 50,
+                "columns": [
+                  null,
+                  null,
+                  { className: "dt-right" }
+                ],
+                "lengthChange": false
+            });
+        }
+    </script>
+  </body>
+</html>
