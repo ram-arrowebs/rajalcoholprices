@@ -8,5 +8,5 @@ Add this formula in the cell `A1` of a blank google sheet. You can learn more on
 
 `=importhtml("https://rajexcise.gov.in/RSBCL-Price-List.aspx", "table", 22)`
 
-Use [PapaParse.js](https://www.papaparse.com/) and [Datatable.js](https://datatables.net) to generate a [page!](https://dev.arrowebs.net/raj/)
+Use [PapaParse.js](https://www.papaparse.com/) and [Datatable.js](https://datatables.net) to generate a [page!](https://ram-arrowebs.github.io/rajalcoholprices/)
 
