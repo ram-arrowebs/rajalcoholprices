@@ -36,13 +36,14 @@
         var govdata    = "https://docs.google.com/spreadsheets/d/1-4Wuz9_s0cLb1KLFt3f4q6LHrFPH1BALb67L88vbIW8/gviz/tq?tqx=out:csv&sheet=data&range=B2:D";
         var lastupdate = "https://docs.google.com/spreadsheets/d/1-4Wuz9_s0cLb1KLFt3f4q6LHrFPH1BALb67L88vbIW8/gviz/tq?tqx=out:csv&sheet=lastupdate&range=A1";
         $(document).ready(function() {
-
+            // The primary table
             Papa.parse(govdata, {
                 download: true,
                 complete: function(results) {           
                     feedDataTable(results.data);
                 }
             });
+            // The last updated date value
             Papa.parse(lastupdate, {
                 download: true,
                 complete: function(results) {
