@@ -35,10 +35,14 @@ Datatable is used as presentation layer and the PapaParse fetches data from Goog
 
 All the javascripts and stylesheets are referenced from publicly avaiable CDNs.
 
-With a little bit of styling for alignment and clutter;
+With a little bit of styling for alignment and clutter - here's what we have!
 
 <a href="https://ram-arrowebs.github.io/rajalcoholprices/" target="_blank">https://ram-arrowebs.github.io/rajalcoholprices/</a>
 
-#### Next Steps
+a.k.a
 
-Create a manifest to make this a PWA with an ability to add it to Home Screen! - In Progress
+https://sh0.in/raj
+
+#### A2HS
+
+Create a manifest to make this a PWA with an ability to [Add to Home Screen](https://developer.mozilla.org/en-US/docs/Web/Progressive_web_apps/Add_to_home_screen)!
