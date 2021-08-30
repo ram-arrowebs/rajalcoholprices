@@ -10,8 +10,6 @@ Add this formula in the cell `A1` of a blank google sheet. You can learn more on
 
 At this point, intelligent data is now available from Google Sheet which can be consumed in many ways. Here [PapaParse.js](https://www.papaparse.com/) and [Datatable.js](https://datatables.net) are used to generate a [page hosted right here on github!](https://ram-arrowebs.github.io/rajalcoholprices/)
 
-This project has just a single file and all the scripts are referenced from publicly avaiable CDNs.
-
 The sheet **lastupdated** has the last updated date
 
 `=importhtml("https://rajexcise.gov.in/RSBCL-Price-List.aspx", "table", 23)`
@@ -24,7 +22,7 @@ The header with wrapped content on the header of the last column forced ignoring
 
 #### PapaParse and Datatable
 
-Datatable is used as presentation layer and the PapaParse fetches data from Google Sheets CSV output, converts into JSON and feeds into Datatable. All in a single line of code
+Datatable is used as presentation layer and the PapaParse fetches data from Google Sheets CSV output, converts into JSON and feeds into Datatable. The crux of the funtions happen in these lines below. The code has been modified to add a little bit of styling.
 
     Papa.parse(google_sheet_csv, {
         download: true,
@@ -35,10 +33,12 @@ Datatable is used as presentation layer and the PapaParse fetches data from Goog
         }
     });
 
+All the javascripts and stylesheets are referenced from publicly avaiable CDNs.
+
 With a little bit of styling for alignment and clutter;
 
 <a href="https://ram-arrowebs.github.io/rajalcoholprices/" target="_blank">https://ram-arrowebs.github.io/rajalcoholprices/</a>
 
 #### Next Steps
 
-Create a manifest to make this a PWA with an ability to add it to Home Screen!
+Create a manifest to make this a PWA with an ability to add it to Home Screen! - In Progress
