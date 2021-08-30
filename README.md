@@ -12,6 +12,10 @@ At this point, intelligent data is now available from Google Sheet which can be 
 
 This project has just a single file and all the scripts are referenced from publicly avaiable CDNs.
 
+The sheet **lastupdated** has the last updated date
+
+`=importhtml("https://rajexcise.gov.in/RSBCL-Price-List.aspx", "table", 23)`
+
 #### Data (and the issues therein)
 
 The header with wrapped content on the header of the last column forced ignoring the header altogether and the column with the serial numbering is of no use either.
