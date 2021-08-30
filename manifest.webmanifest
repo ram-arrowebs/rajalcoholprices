@@ -1,0 +1,15 @@
+{
+  "background_color": "white",
+  "description": "Rajasthan Alcohol Prices Ready Reckoner",
+  "display": "fullscreen",
+  "icons": [
+    {
+      "src": "icon/raprr.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    }
+  ],
+  "name": "Rajasthan Alcohol Prices",
+  "short_name": "Alcohol Prices",
+  "start_url": "index.html"
+}
