@@ -46,3 +46,7 @@ https://sh0.in/raj
 #### A2HS
 
 Create a manifest to make this a PWA with an ability to [Add to Home Screen](https://developer.mozilla.org/en-US/docs/Web/Progressive_web_apps/Add_to_home_screen)!
+
+#### SVG Loader
+
+Created an overlay using a nifty css svg spinner by [Fabio Ottaviani](https://codepen.io/supah/pen/BjYLdW)
