@@ -50,3 +50,11 @@ Create a manifest to make this a PWA with an ability to [Add to Home Screen](htt
 #### SVG Loader
 
 Created an overlay using a nifty css svg spinner by [Fabio Ottaviani](https://codepen.io/supah/pen/BjYLdW)
+
+#### New Favicon
+
+Created a favicon using :cling_beer_mugs: emoji and updated Add to Home Screen option
+
+#### Share using QRCode
+
+Add a feature to share app using QRCode from within the app itself
