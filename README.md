@@ -58,4 +58,5 @@ Created a favicon using :cling_beer_mugs: emoji and updated Add to Home Screen o
 #### Share using QRCode
 
 Add a feature to share app using QRCode from within the app itself
+
 ![Share and Spread](https://chart.apis.google.com/chart?cht=qr&chs=200x200&choe=UTF-8&chld=H%7C0&chl=https://ram-arrowebs.github.io/rajalcoholprices/)
