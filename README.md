@@ -6,13 +6,13 @@ Showcase Google Sheet **`IMPORTHTML()`** function to get alcohol prices from Raj
 
 Add this formula in the cell `A1` of a blank google sheet. You can learn more on how to use `IMPORTHTML()` function [here.](https://blog.coupler.io/importhtml-function-google-sheets/) 
 
-`=importhtml("https://rajexcise.gov.in/RSBCL-Price-List.aspx", "table", 22)`
+`=importhtml("https://excise.rajasthan.gov.in/RSBCL-Price-List.aspx", "table", 22)`
 
 At this point, intelligent data is now available from Google Sheet which can be consumed in many ways. Here [PapaParse.js](https://www.papaparse.com/) and [Datatable.js](https://datatables.net) are used to generate a [page hosted right here on github!](https://ram-arrowebs.github.io/rajalcoholprices/)
 
 The sheet **lastupdated** has the last updated date
 
-`=importhtml("https://rajexcise.gov.in/RSBCL-Price-List.aspx", "table", 23)`
+`=importhtml("https://excise.rajasthan.gov.in/RSBCL-Price-List.aspx", "table", 23)`
 
 #### Data (and the issues therein)
 
