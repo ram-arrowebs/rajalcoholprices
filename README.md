@@ -39,10 +39,6 @@ With a little bit of styling for alignment and clutter - here's what we have!
 
 <a href="https://ram-arrowebs.github.io/rajalcoholprices/" target="_blank">https://ram-arrowebs.github.io/rajalcoholprices/</a>
 
-a.k.a
-
-https://sh0.in/raj
-
 #### A2HS
 
 Create a manifest to make this a PWA with an ability to [Add to Home Screen](https://developer.mozilla.org/en-US/docs/Web/Progressive_web_apps/Add_to_home_screen)!
@@ -59,4 +55,4 @@ Created a favicon using :cling_beer_mugs: emoji and updated Add to Home Screen o
 
 Add a feature to share app using QRCode from within the app itself
 
-![Share and Spread](https://chart.apis.google.com/chart?cht=qr&chs=200x200&choe=UTF-8&chld=H%7C0&chl=https://ram-arrowebs.github.io/rajalcoholprices/)
+![Share and Spread](qr-code.png)
