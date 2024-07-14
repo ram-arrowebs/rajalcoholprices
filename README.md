@@ -37,7 +37,7 @@ All the javascripts and stylesheets are referenced from publicly avaiable CDNs.
 
 With a little bit of styling for alignment and clutter - here's what we have!
 
-<a href="https://ram-arrowebs.github.io/rajalcoholprices/" target="_blank">https://ram-arrowebs.github.io/rajalcoholprices/</a>
+<a href="https://ram-arrowebs.github.io/rajalcoholprices/" target="_blank">https://ram-arrowebs.github.io/rajalcoholprices/</a>``
 
 #### A2HS
 
