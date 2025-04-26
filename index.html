@@ -133,7 +133,7 @@
     
     <script src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/5.3.1/papaparse.min.js" integrity="sha512-EbdJQSugx0nVWrtyK3JdQQ/03mS3Q1UiAhRtErbwl1YL/+e2hZdlIcSURxxh7WXHTzn83sjlh2rysACoJGfb6g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <script type="text/javascript">
-        var govdata    = "https://docs.google.com/spreadsheets/d/1-4Wuz9_s0cLb1KLFt3f4q6LHrFPH1BALb67L88vbIW8/gviz/tq?tqx=out:csv&sheet=data&range=B2:D";
+        var govdata    = "https://iems.rajasthan.gov.in/ApprovedRateList/ApprovedRateList/ApprovedRateGridList?type=0";
         var lastupdate = "https://docs.google.com/spreadsheets/d/1-4Wuz9_s0cLb1KLFt3f4q6LHrFPH1BALb67L88vbIW8/gviz/tq?tqx=out:csv&sheet=lastupdate&range=A1";
         $(document).ready(function() {
             $("#overlay").show();
@@ -142,6 +142,7 @@
             Papa.parse(govdata, {
                 download: true,
                 complete: function(results) {  
+                    console.log(results)
                     feedDataTable(results.data);
                 }
             });

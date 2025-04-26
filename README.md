@@ -20,6 +20,10 @@ The header with wrapped content on the header of the last column forced ignoring
 
 `https://docs.google.com/spreadsheets/d/`**`[GOOGLE_SHEETS_ID]`**`/gviz/tq?tqx=out:csv&sheet=data&range=`**`B2:D`**
 
+#### Data is no longer in html table
+
+`https://iems.rajasthan.gov.in/ApprovedRateList/ApprovedRateList/ApprovedRateGridList?type=0`
+
 #### PapaParse and Datatable
 
 Datatable is used as presentation layer and the PapaParse fetches data from Google Sheets CSV output, converts into JSON and feeds into Datatable. The crux of the funtions happen in these lines below. The code has been modified to add a little bit of styling.
