@@ -100,6 +100,9 @@
       .add-button {
         display: none;
       }
+      td.small-font {
+        font-size: 0.8em;
+      }
       #overlay {
         height: 100%;
         width: 100%;
@@ -187,7 +190,6 @@
         <thead>
           <tr>
             <th>Item</th>
-            <th>Type</th>
             <th>Packing</th>
             <th>Price</th>
           </tr>
@@ -248,18 +250,42 @@
         Papa.parse(govdata, {
           download: true,
           complete: function (results) {
-            feedDataTable(results.data);
+            var filteredData = results.data.map((row) => [
+              row[0], // BrandName
+              row[2] + "ml", // Packing
+              row[3], // MRP
+            ]);
+
+            console.log(filteredData);
+            feedDataTable(filteredData);
           },
         });
-
       });
+
+      function toProperCase(str) {
+        return str
+          .toLowerCase()
+          .replace(/(^|\s|\.)\w/g, (char) => char.toUpperCase()); // Capitalize after start, space, or dot
+      }
+
+      function toIndianRupeeFormat(price) {
+        return Number(price).toLocaleString("en-IN", {
+          style: "currency",
+          currency: "INR",
+          minimumFractionDigits: 0,
+        });
+      }
 
       function feedDataTable(dataSet) {
         $("#rajprice").DataTable({
           data: dataSet,
           pageLength: 20,
           pagingType: "simple",
-          columns: [null, null, { className: "dt-right" }, { className: "dt-right" }],
+          columns: [
+            {render: function (data) { return toProperCase(data);}},
+            { className: "dt-right small-font" },
+            { className: "dt-right", render: function (data, type) { return type === 'display' ? toIndianRupeeFormat(data) : data;} },
+          ],
           lengthChange: false,
           fnInitComplete: function () {
             $("#overlay").hide();
