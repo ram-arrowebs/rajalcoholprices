@@ -4,6 +4,9 @@
 
 The datasource has changed from HTML to JSON but with CORS issues. To circumvent the issue, an appscript was used to import data to Google Sheets which is further used as source to this page. Please raise an issue to get in touch with me for more details.
 
+The source is `https://iems.rajasthan.gov.in/ApprovedRateList/ApprovedRateList/ApprovedRateGridList?type=0`
+
+
 ## v 1.0 (Deprecated since the source website took the page down)
 Showcase Google Sheet **`IMPORTHTML()`** function to get alcohol prices from Rajasthan Goverment Excise Department webpage and create a responsive view.
 
@@ -23,11 +26,8 @@ The sheet **lastupdated** has the last updated date
 
 The header with wrapped content on the header of the last column forced ignoring the header altogether and the column with the serial numbering is of no use either.
 
-`https://docs.google.com/spreadsheets/d/`**`[GOOGLE_SHEETS_ID]`**`/gviz/tq?tqx=out:csv&sheet=data_v2&range=`**`B2:D`**
+`https://docs.google.com/spreadsheets/d/`**`[GOOGLE_SHEETS_ID]`**`/gviz/tq?tqx=out:csv&sheet=data&range=`**`B2:D`**
 
-#### Data is no longer in html table
-
-`https://iems.rajasthan.gov.in/ApprovedRateList/ApprovedRateList/ApprovedRateGridList?type=0`
 
 #### PapaParse and Datatable
 
