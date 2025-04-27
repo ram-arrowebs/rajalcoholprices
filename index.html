@@ -187,8 +187,9 @@
         <thead>
           <tr>
             <th>Item</th>
+            <th>Type</th>
             <th>Packing</th>
-            <th class="dt-right">Price</th>
+            <th>Price</th>
           </tr>
         </thead>
       </table>
@@ -239,7 +240,7 @@
     ></script>
     <script type="text/javascript">
       var govdata =
-        "https://iems.rajasthan.gov.in/ApprovedRateList/ApprovedRateList/ApprovedRateGridList?type=0";
+        "https://docs.google.com/spreadsheets/d/1-4Wuz9_s0cLb1KLFt3f4q6LHrFPH1BALb67L88vbIW8/gviz/tq?tqx=out:csv&sheet=data_v2&range=B2:E";
       $(document).ready(function () {
         $("#overlay").show();
 
@@ -247,7 +248,6 @@
         Papa.parse(govdata, {
           download: true,
           complete: function (results) {
-            console.log(results);
             feedDataTable(results.data);
           },
         });
@@ -259,7 +259,7 @@
           data: dataSet,
           pageLength: 20,
           pagingType: "simple",
-          columns: [null, null, { className: "dt-right" }],
+          columns: [null, null, { className: "dt-right" }, { className: "dt-right" }],
           lengthChange: false,
           fnInitComplete: function () {
             $("#overlay").hide();
