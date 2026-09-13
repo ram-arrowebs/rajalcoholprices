@@ -46,7 +46,6 @@
       <thead>
         <tr>
           <th>Item</th>
-          <th>Type</th>
           <th>Packing</th>
           <th>Price</th>
         </tr>
@@ -91,7 +90,6 @@
         .then((json) => {
           var rows = (json.data || []).map((row) => [
             row.BrandName,
-            row.Type, // will be hidden
             row.Packing + "ml",
             row.MRP,
           ]);
@@ -140,7 +138,6 @@
               return toProperCase(data);
             },
           },
-          { "visible" : true, className: "small-font" },
           { className: "dt-right small-font" },
           {
             className: "dt-right",
@@ -166,7 +163,6 @@
 
               column.data().unique().sort().each( function(d, j) {
                 select.append('<option value="' + d + '">' + d + '</option>');
-                if(column.index() == 1) console.log(d);
             });
 
           });
