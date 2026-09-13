@@ -129,10 +129,17 @@
       });
     }
 
+    // Type values that must stay upper-case in the dropdown
+    var TYPE_ACRONYMS = ["IMFL", "RML"];
+
+    function typeLabel(type) {
+      return TYPE_ACRONYMS.includes(type) ? type : toProperCase(type);
+    }
+
     // Dropdown next to the search box that filters on the hidden Type column
     function addTypeFilter(typeColumn) {
       var select = $(
-        '<select class="form-select form-select-sm w-auto" aria-label="Filter by type">' +
+        '<select class="form-select form-select-sm" aria-label="Filter by type">' +
           '<option value="">All types</option></select>'
       ).on("change", function () {
         var value = $(this).val();
@@ -146,12 +153,10 @@
         .unique()
         .sort()
         .each(function (type) {
-          select.append($("<option>").val(type).text(type));
+          select.append($("<option>").val(type).text(typeLabel(type)));
         });
 
-      $("#rajprice_filter")
-        .addClass("d-flex justify-content-end align-items-center gap-2")
-        .prepend(select);
+      $("#rajprice_filter").prepend(select); // layout in styles.css
     }
 
     function feedDataTable(dataSet) {
@@ -175,6 +180,7 @@
           { visible: false },
         ],
         lengthChange: false,
+        language: { search: "", searchPlaceholder: "Search" },
         fnInitComplete: function () {
           $("#overlay").hide();
           addTypeFilter(this.api().column(3));

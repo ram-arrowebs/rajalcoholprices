@@ -21,6 +21,32 @@ td.small-font {
   white-space: nowrap;
 }
 
+/* Type dropdown + search box on one row; input fills leftover width */
+#rajprice_filter {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+#rajprice_filter select {
+  flex: 0 1 auto;
+  max-width: 45%;
+}
+
+#rajprice_filter label {
+  flex: 1 1 auto;
+  min-width: 0;
+  display: flex;
+  margin: 0;
+}
+
+#rajprice_filter input {
+  flex: 1 1 auto;
+  min-width: 0;
+  width: 100%;
+  margin-left: 0;
+}
+
 #overlay {
   height: 100%;
   width: 100%;

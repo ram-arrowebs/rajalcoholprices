@@ -43,7 +43,7 @@ Supporting files: `a2hs.js` (Add-to-Home-Screen prompt handling), `manifest.webm
 
 ## Current state / gotchas
 
-- The Type filter is a `<select>` built in `addTypeFilter` from the hidden column's unique values and prepended into DataTables' own `#rajprice_filter` container (next to the search input). It uses an anchored-regex column search so values like `RML` and `IMFL` match exactly.
+- The Type filter is a `<select>` built in `addTypeFilter` from the hidden column's unique values and prepended into DataTables' own `#rajprice_filter` container (next to the search input). Option labels are proper-cased except for entries in `TYPE_ACRONYMS`; option values stay raw. It uses an anchored-regex column search so values like `RML` and `IMFL` match exactly.
 - The `<script>` tag for `a2hs.js` has `type="text/javscript"` (typo), so the browser does not execute it and the Add-to-Home-Screen button never appears. Fix the type attribute if A2HS is expected to work.
 - GitHub disables scheduled workflows after 60 days without repository activity; if the data stops refreshing, re-enable it under the Actions tab or trigger `workflow_dispatch`.
 - CDN library versions are pinned in `index.html` (jQuery 3.6.0, DataTables 1.11.0, Bootstrap 5.0.1). Keep the DataTables JS and its Bootstrap 5 integration on the same version when upgrading.
