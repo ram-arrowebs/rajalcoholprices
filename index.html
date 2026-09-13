@@ -115,10 +115,28 @@
         .catch(() => {});
     });
 
+    // Abbreviations that stay upper-case when proper-casing names
+    var KEEP_UPPER = ["IMFL", "RML", "ENA", "PET", "CL", "XO", "VS", "VSOP", "YO", "IGT", "IGP", "DOC", "DOCG", "AOC", "ABV"];
+    // Exact replacements (units, Mc/St prefixes)
+    var SPECIAL_CASE = { ML: "ml", LTR: "ltr", MC: "Mc", ST: "St" };
+
+    function properCaseWord(word) {
+      if (word.indexOf(".") !== -1) {
+        // C.L. / Y.O. / NO.1 / J.Lohr: handle each dotted segment on its own
+        return word.split(".").map(properCaseWord).join(".");
+      }
+      var core = word.replace(/'/g, ""); // NV'S -> NVS, Jacob's -> Jacobs
+      var upper = core.toUpperCase();
+      if (!core || /\d/.test(core)) return word; // M2, V21, 21YO
+      if (SPECIAL_CASE[upper]) return word.replace(core, SPECIAL_CASE[upper]);
+      if (KEEP_UPPER.includes(upper)) return word.toUpperCase();
+      if (/^[IVX]+$/.test(upper)) return word.toUpperCase(); // roman numerals
+      if (!/[AEIOUY]/.test(upper)) return word.toUpperCase(); // XXX, VDL, RHL, HH
+      return word.toLowerCase().replace(/^[a-z]/, (ch) => ch.toUpperCase());
+    }
+
     function toProperCase(str) {
-      return str
-        .toLowerCase()
-        .replace(/(^|\s|\.)\w/g, (char) => char.toUpperCase()); // Capitalize after start, space, or dot
+      return str.replace(/[A-Za-z0-9.']+/g, properCaseWord);
     }
 
     function toIndianRupeeFormat(price) {
