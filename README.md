@@ -1,10 +1,18 @@
 # Alcohol Prices in Rajasthan, IN
 
-## v 2.0
+## v 3.0
 
-The datasource has changed from HTML to JSON but with CORS issues. To circumvent the issue, an appscript was used to import data to Google Sheets which is further used as source to this page. Please raise an issue to get in touch with me for more details.
+The Google Sheets intermediary is gone. A GitHub Action (`.github/workflows/fetch-prices.yml`) downloads the IEMS JSON once a day and commits it to `data/prices.json` (plus `data/meta.json` with the fetch timestamp). The page reads that file directly, so it works with no third-party data dependency.
+
+The download is validated before it is written: if the source is unreachable, returns non-JSON, or returns an empty list, the run fails and the previously committed data is kept untouched. The workflow can also be triggered manually from the Actions tab.
+
+`data/` is gitignored for local development; the action force-adds the files it produces. To test locally, drop a copy of the source JSON at `data/prices.json` and serve the folder with any static server.
 
 The source is `https://iems.rajasthan.gov.in/ApprovedRateList/ApprovedRateList/ApprovedRateGridList?type=0`
+
+## v 2.0 (Deprecated)
+
+The datasource has changed from HTML to JSON but with CORS issues. To circumvent the issue, an appscript was used to import data to Google Sheets which is further used as source to this page.
 
 
 ## v 1.0 (Deprecated since the source website took the page down)

@@ -73,28 +73,46 @@
   <script type="text/javascript" charset="utf8"
     src="https://cdn.datatables.net/1.11.0/js/dataTables.bootstrap5.min.js"></script>
 
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/5.3.1/papaparse.min.js"
-    integrity="sha512-EbdJQSugx0nVWrtyK3JdQQ/03mS3Q1UiAhRtErbwl1YL/+e2hZdlIcSURxxh7WXHTzn83sjlh2rysACoJGfb6g=="
-    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
   <script type="text/javscript" charset="utf8" src="./a2hs.js"></script>
   <script type="text/javascript">
-    var govdata =
-      "https://docs.google.com/spreadsheets/d/1-4Wuz9_s0cLb1KLFt3f4q6LHrFPH1BALb67L88vbIW8/gviz/tq?tqx=out:csv&sheet=data_v2&range=B2:E";
+    // Price data is a snapshot of the IEMS approved-rate JSON, refreshed
+    // daily into ./data by .github/workflows/fetch-prices.yml
+    var pricesUrl = "./data/prices.json";
+    var metaUrl = "./data/meta.json";
+
     $(document).ready(function () {
       $("#overlay").show();
 
-      Papa.parse(govdata, {
-        download: true,
-        complete: function (results) {
-          var filteredData = results.data.map((row) => [
-            row[0], // BrandName
-            row[1], // Type .. will be hidden
-            row[2] + "ml", // Packing
-            row[3], // MRP
+      fetch(pricesUrl, { cache: "no-cache" })
+        .then((res) => {
+          if (!res.ok) throw new Error("HTTP " + res.status);
+          return res.json();
+        })
+        .then((json) => {
+          var rows = (json.data || []).map((row) => [
+            row.BrandName,
+            row.Type, // will be hidden
+            row.Packing + "ml",
+            row.MRP,
           ]);
-          feedDataTable(filteredData);
-        },
-      });
+          feedDataTable(rows);
+        })
+        .catch((err) => {
+          console.error("Failed to load price data", err);
+          $("#overlay").hide();
+          $("#lastupdate").text("Could not load price data.");
+        });
+
+      fetch(metaUrl, { cache: "no-cache" })
+        .then((res) => (res.ok ? res.json() : null))
+        .then((meta) => {
+          if (meta && meta.fetchedAt) {
+            $("#lastupdate").text(
+              "Updated " + new Date(meta.fetchedAt).toLocaleDateString("en-IN")
+            );
+          }
+        })
+        .catch(() => {});
     });
 
     function toProperCase(str) {
