@@ -21,16 +21,6 @@ td.small-font {
   white-space: nowrap;
 }
 
-/* Hide sort indicators (arrows) in DataTable headers */
-#rajprice th.sorting::before,
-#rajprice th.sorting::after,
-#rajprice th.sorting_asc::before,
-#rajprice th.sorting_asc::after,
-#rajprice th.sorting_desc::before,
-#rajprice th.sorting_desc::after {
-  display: none !important;
-}
-
 #overlay {
   height: 100%;
   width: 100%;

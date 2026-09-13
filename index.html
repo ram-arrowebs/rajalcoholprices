@@ -48,6 +48,7 @@
           <th>Item</th>
           <th>Packing</th>
           <th>Price</th>
+          <th>Type</th>
         </tr>
       </thead>
     </table>
@@ -92,6 +93,7 @@
             row.BrandName,
             row.Packing + "ml",
             row.MRP,
+            row.Type, // hidden column, drives the Type filter
           ]);
           feedDataTable(rows);
         })
@@ -127,6 +129,31 @@
       });
     }
 
+    // Dropdown next to the search box that filters on the hidden Type column
+    function addTypeFilter(typeColumn) {
+      var select = $(
+        '<select class="form-select form-select-sm w-auto" aria-label="Filter by type">' +
+          '<option value="">All types</option></select>'
+      ).on("change", function () {
+        var value = $(this).val();
+        typeColumn
+          .search(value ? "^" + $.fn.dataTable.util.escapeRegex(value) + "$" : "", true, false)
+          .draw();
+      });
+
+      typeColumn
+        .data()
+        .unique()
+        .sort()
+        .each(function (type) {
+          select.append($("<option>").val(type).text(type));
+        });
+
+      $("#rajprice_filter")
+        .addClass("d-flex justify-content-end align-items-center gap-2")
+        .prepend(select);
+    }
+
     function feedDataTable(dataSet) {
       $("#rajprice").DataTable({
         data: dataSet,
@@ -145,27 +172,12 @@
               return type === "display" ? toIndianRupeeFormat(data) : data;
             },
           },
+          { visible: false },
         ],
         lengthChange: false,
         fnInitComplete: function () {
           $("#overlay").hide();
-          this.api()
-            .columns()
-            .every(function(){
-              var column = this;
-              console.log(column.index());
-
-              var select = $('<select><option value=""></option></select>')
-                .appendTo($(column.footer()).empty())
-                .on('change', function() {
-                  column.search($(this).val(), {exact: true}).draw();
-                });
-
-              column.data().unique().sort().each( function(d, j) {
-                select.append('<option value="' + d + '">' + d + '</option>');
-            });
-
-          });
+          addTypeFilter(this.api().column(3));
         },
       });
     }
