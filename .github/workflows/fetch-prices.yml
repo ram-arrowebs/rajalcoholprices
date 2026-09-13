@@ -1,0 +1,69 @@
+name: Fetch price list
+
+on:
+  schedule:
+    # 03:30 UTC = 09:00 IST, daily
+    - cron: "30 3 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: fetch-prices
+  cancel-in-progress: false
+
+env:
+  SOURCE_URL: "https://iems.rajasthan.gov.in/ApprovedRateList/ApprovedRateList/ApprovedRateGridList?type=0"
+  TARGET: data/prices.json
+  META: data/meta.json
+
+jobs:
+  fetch:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v6
+
+      # Download to a temp file only. data/prices.json is never touched
+      # unless every step below succeeds, so a network error, a non-200
+      # response, malformed JSON or an empty list leaves the previous
+      # committed data in place (and fails the run so it is visible).
+      - name: Download source
+        run: |
+          curl --fail --silent --show-error --location \
+               --retry 3 --retry-delay 15 --retry-all-errors \
+               --max-time 120 \
+               -H "Accept: application/json" \
+               -o "${RUNNER_TEMP}/prices.raw.json" \
+               "$SOURCE_URL"
+
+      - name: Validate source
+        run: |
+          raw="${RUNNER_TEMP}/prices.raw.json"
+          if ! jq -e '.data | type == "array" and length > 0' "$raw" > /dev/null; then
+            echo "::error::Source returned no rows or invalid JSON; keeping previous data"
+            head -c 500 "$raw" || true
+            exit 1
+          fi
+          echo "rows=$(jq '.data | length' "$raw")" >> "$GITHUB_STEP_SUMMARY"
+
+      - name: Write data files
+        run: |
+          mkdir -p data
+          jq '.' "${RUNNER_TEMP}/prices.raw.json" > "$TARGET"
+          jq -n --arg at "$(date -u +%Y-%m-%dT%H:%M:%SZ)" \
+                --argjson rows "$(jq '.data | length' "$TARGET")" \
+                '{fetchedAt: $at, rows: $rows}' > "$META"
+
+      - name: Commit and push if changed
+        run: |
+          # data/ is gitignored for local development; force-add here.
+          git add -f "$TARGET" "$META"
+          if git diff --cached --quiet -- "$TARGET"; then
+            echo "Price data unchanged; nothing to commit."
+            exit 0
+          fi
+          git config user.name  "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git commit -m "chore(data): update price list $(date -u +%Y-%m-%d)"
+          git push
