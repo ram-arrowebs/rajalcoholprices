@@ -2481,6 +2481,14 @@
       "MRP": 2185
     },
     {
+      "SerialNo": 1986,
+      "Type": "IMFL",
+      "BrandName": "ABSOLUT ELYX (42.3%)(750 ML (6 Bottles))",
+      "Packing": 750,
+      "MSP": 0,
+      "MRP": 4015
+    },
+    {
       "SerialNo": 1867,
       "Type": "IMFL",
       "BrandName": "ABSOLUT GRAPEFRUIT VODKA(quarts)",
@@ -2625,6 +2633,46 @@
       "MRP": 6000
     },
     {
+      "SerialNo": 1964,
+      "Type": "IMFL",
+      "BrandName": "ALL SEASONS GOLD COLLECTION RESERVE WHISKY(90 ML(100 Bottles))",
+      "Packing": 90,
+      "MSP": 0,
+      "MRP": 95
+    },
+    {
+      "SerialNo": 1965,
+      "Type": "IMFL",
+      "BrandName": "ALL SEASONS GOLD COLLECTION RESERVE WHISKY(Nips)",
+      "Packing": 180,
+      "MSP": 0,
+      "MRP": 185
+    },
+    {
+      "SerialNo": 1966,
+      "Type": "IMFL",
+      "BrandName": "ALL SEASONS GOLD COLLECTION RESERVE WHISKY(Nips-IMFL pet)",
+      "Packing": 180,
+      "MSP": 0,
+      "MRP": 185
+    },
+    {
+      "SerialNo": 1967,
+      "Type": "IMFL",
+      "BrandName": "ALL SEASONS GOLD COLLECTION RESERVE WHISKY(Pints)",
+      "Packing": 375,
+      "MSP": 0,
+      "MRP": 375
+    },
+    {
+      "SerialNo": 1968,
+      "Type": "IMFL",
+      "BrandName": "ALL SEASONS GOLD COLLECTION RESERVE WHISKY(quarts)",
+      "Packing": 750,
+      "MSP": 0,
+      "MRP": 750
+    },
+    {
       "SerialNo": 33,
       "Type": "IMFL",
       "BrandName": "ALL SEASONS GOLDEN COLLECTION RESERVE WHISKY.(150 ml x 60 )",
@@ -2705,7 +2753,7 @@
       "MRP": 850
     },
     {
-      "SerialNo": 1964,
+      "SerialNo": 1969,
       "Type": "IMFL",
       "BrandName": "ALL SEASONS SIR-E-TAJ OLD CASK COLLECTION PREMIUM RESERVE WHISKY(90 ML(100 Bottles))",
       "Packing": 90,
@@ -2713,7 +2761,7 @@
       "MRP": 105
     },
     {
-      "SerialNo": 1965,
+      "SerialNo": 1970,
       "Type": "IMFL",
       "BrandName": "ALL SEASONS SIR-E-TAJ OLD CASK COLLECTION PREMIUM RESERVE WHISKY(Nips)",
       "Packing": 180,
@@ -2721,7 +2769,7 @@
       "MRP": 210
     },
     {
-      "SerialNo": 1966,
+      "SerialNo": 1971,
       "Type": "IMFL",
       "BrandName": "ALL SEASONS SIR-E-TAJ OLD CASK COLLECTION PREMIUM RESERVE WHISKY(Nips-IMFL pet)",
       "Packing": 180,
@@ -2729,7 +2777,7 @@
       "MRP": 210
     },
     {
-      "SerialNo": 1967,
+      "SerialNo": 1972,
       "Type": "IMFL",
       "BrandName": "ALL SEASONS SIR-E-TAJ OLD CASK COLLECTION PREMIUM RESERVE WHISKY(Pints)",
       "Packing": 375,
@@ -2737,7 +2785,7 @@
       "MRP": 425
     },
     {
-      "SerialNo": 1968,
+      "SerialNo": 1973,
       "Type": "IMFL",
       "BrandName": "ALL SEASONS SIR-E-TAJ OLD CASK COLLECTION PREMIUM RESERVE WHISKY(quarts)",
       "Packing": 750,
@@ -5751,6 +5799,54 @@
       "Packing": 750,
       "MSP": 0,
       "MRP": 900
+    },
+    {
+      "SerialNo": 1974,
+      "Type": "IMFL",
+      "BrandName": "FAME MASTER BLENDER'S CLASSIC COLLECTION BLENDED MATURED WHISKY(90 ML(100 Bottles))",
+      "Packing": 90,
+      "MSP": 0,
+      "MRP": 80
+    },
+    {
+      "SerialNo": 1975,
+      "Type": "IMFL",
+      "BrandName": "FAME MASTER BLENDER'S CLASSIC COLLECTION BLENDED MATURED WHISKY(90 ml X 100 (PET) )",
+      "Packing": 90,
+      "MSP": 0,
+      "MRP": 80
+    },
+    {
+      "SerialNo": 1976,
+      "Type": "IMFL",
+      "BrandName": "FAME MASTER BLENDER'S CLASSIC COLLECTION BLENDED MATURED WHISKY(Nips)",
+      "Packing": 180,
+      "MSP": 0,
+      "MRP": 150
+    },
+    {
+      "SerialNo": 1977,
+      "Type": "IMFL",
+      "BrandName": "FAME MASTER BLENDER'S CLASSIC COLLECTION BLENDED MATURED WHISKY(Nips-IMFL pet)",
+      "Packing": 180,
+      "MSP": 0,
+      "MRP": 150
+    },
+    {
+      "SerialNo": 1978,
+      "Type": "IMFL",
+      "BrandName": "FAME MASTER BLENDER'S CLASSIC COLLECTION BLENDED MATURED WHISKY(Pints)",
+      "Packing": 375,
+      "MSP": 0,
+      "MRP": 315
+    },
+    {
+      "SerialNo": 1979,
+      "Type": "IMFL",
+      "BrandName": "FAME MASTER BLENDER'S CLASSIC COLLECTION BLENDED MATURED WHISKY(quarts)",
+      "Packing": 750,
+      "MSP": 0,
+      "MRP": 620
     },
     {
       "SerialNo": 1539,
@@ -9921,6 +10017,14 @@
       "MRP": 2590
     },
     {
+      "SerialNo": 1987,
+      "Type": "IMFL",
+      "BrandName": "OAKEN GLOW PREMIUM WHISKY(90 ml)",
+      "Packing": 90,
+      "MSP": 0,
+      "MRP": 135
+    },
+    {
       "SerialNo": 1030,
       "Type": "IMFL",
       "BrandName": "OAKEN GLOW PREMIUM WHISKY(Nips)",
@@ -11031,6 +11135,54 @@
       "Packing": 750,
       "MSP": 0,
       "MRP": 1555
+    },
+    {
+      "SerialNo": 1980,
+      "Type": "IMFL",
+      "BrandName": "ROYAL ARMS PREMIUM GRAIN WHISKY(90 ML(100 Bottles))",
+      "Packing": 90,
+      "MSP": 0,
+      "MRP": 65
+    },
+    {
+      "SerialNo": 1981,
+      "Type": "IMFL",
+      "BrandName": "ROYAL ARMS PREMIUM GRAIN WHISKY(90 ml X 100 (PET) )",
+      "Packing": 90,
+      "MSP": 0,
+      "MRP": 65
+    },
+    {
+      "SerialNo": 1982,
+      "Type": "IMFL",
+      "BrandName": "ROYAL ARMS PREMIUM GRAIN WHISKY(Nips)",
+      "Packing": 180,
+      "MSP": 0,
+      "MRP": 125
+    },
+    {
+      "SerialNo": 1983,
+      "Type": "IMFL",
+      "BrandName": "ROYAL ARMS PREMIUM GRAIN WHISKY(Nips-IMFL pet)",
+      "Packing": 180,
+      "MSP": 0,
+      "MRP": 125
+    },
+    {
+      "SerialNo": 1984,
+      "Type": "IMFL",
+      "BrandName": "ROYAL ARMS PREMIUM GRAIN WHISKY(Pints)",
+      "Packing": 375,
+      "MSP": 0,
+      "MRP": 245
+    },
+    {
+      "SerialNo": 1985,
+      "Type": "IMFL",
+      "BrandName": "ROYAL ARMS PREMIUM GRAIN WHISKY(quarts)",
+      "Packing": 750,
+      "MSP": 0,
+      "MRP": 490
     },
     {
       "SerialNo": 516,
@@ -13031,6 +13183,14 @@
       "Packing": 750,
       "MSP": 0,
       "MRP": 1985
+    },
+    {
+      "SerialNo": 1988,
+      "Type": "IMFL",
+      "BrandName": "THE GLENLIVET 12YO SINGLE MALT SCOTCH WHISKY RUM CASK(700 ML (6 Bottle))",
+      "Packing": 700,
+      "MSP": 0,
+      "MRP": 5000
     },
     {
       "SerialNo": 1898,
