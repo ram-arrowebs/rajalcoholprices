@@ -2809,6 +2809,14 @@
       "MRP": 4740
     },
     {
+      "SerialNo": 1987,
+      "Type": "IMFL",
+      "BrandName": "ALMAR REPOSADO(750 ML (6 Bottles))",
+      "Packing": 750,
+      "MSP": 0,
+      "MRP": 4000
+    },
+    {
       "SerialNo": 1542,
       "Type": "IMFL",
       "BrandName": "ALTA VISTA VIVE CHARDONNAY WINE(quarts)",
@@ -4711,6 +4719,14 @@
       "Packing": 750,
       "MSP": 0,
       "MRP": 4965
+    },
+    {
+      "SerialNo": 1988,
+      "Type": "IMFL",
+      "BrandName": "CASA CLARO PICANTE(quarts)",
+      "Packing": 750,
+      "MSP": 0,
+      "MRP": 2400
     },
     {
       "SerialNo": 155,
@@ -10017,7 +10033,7 @@
       "MRP": 2590
     },
     {
-      "SerialNo": 1987,
+      "SerialNo": 1989,
       "Type": "IMFL",
       "BrandName": "OAKEN GLOW PREMIUM WHISKY(90 ml)",
       "Packing": 90,
@@ -11489,7 +11505,7 @@
       "MRP": 200
     },
     {
-      "SerialNo": 1939,
+      "SerialNo": 1775,
       "Type": "IMFL",
       "BrandName": "ROYAL STAG DOUBLE DARK PEATY WHISKY(Pints)",
       "Packing": 375,
@@ -11497,7 +11513,7 @@
       "MRP": 400
     },
     {
-      "SerialNo": 1775,
+      "SerialNo": 1939,
       "Type": "IMFL",
       "BrandName": "ROYAL STAG DOUBLE DARK PEATY WHISKY(Pints)",
       "Packing": 375,
@@ -13185,7 +13201,7 @@
       "MRP": 1985
     },
     {
-      "SerialNo": 1988,
+      "SerialNo": 1990,
       "Type": "IMFL",
       "BrandName": "THE GLENLIVET 12YO SINGLE MALT SCOTCH WHISKY RUM CASK(700 ML (6 Bottle))",
       "Packing": 700,
@@ -13791,6 +13807,54 @@
       "Packing": 750,
       "MSP": 0,
       "MRP": 1990
+    },
+    {
+      "SerialNo": 1991,
+      "Type": "IMFL",
+      "BrandName": "UDAIPUR INDIAN DRY GIN GULAB(50 ML.(60 per Nips))",
+      "Packing": 50,
+      "MSP": 0,
+      "MRP": 175
+    },
+    {
+      "SerialNo": 1992,
+      "Type": "IMFL",
+      "BrandName": "UDAIPUR INDIAN DRY GIN GULAB(quarts)",
+      "Packing": 750,
+      "MSP": 0,
+      "MRP": 2600
+    },
+    {
+      "SerialNo": 1993,
+      "Type": "IMFL",
+      "BrandName": "UDAIPUR INDIAN DRY GIN JAMUN(50 ML.(60 per Nips))",
+      "Packing": 50,
+      "MSP": 0,
+      "MRP": 175
+    },
+    {
+      "SerialNo": 1994,
+      "Type": "IMFL",
+      "BrandName": "UDAIPUR INDIAN DRY GIN JAMUN(quarts)",
+      "Packing": 750,
+      "MSP": 0,
+      "MRP": 2600
+    },
+    {
+      "SerialNo": 1995,
+      "Type": "IMFL",
+      "BrandName": "UDAIPUR RESERVE PREMIUM GRAIN WHISKEY(50 ML.(60 per Nips))",
+      "Packing": 50,
+      "MSP": 0,
+      "MRP": 205
+    },
+    {
+      "SerialNo": 1996,
+      "Type": "IMFL",
+      "BrandName": "UDAIPUR RESERVE PREMIUM GRAIN WHISKEY(quarts)",
+      "Packing": 750,
+      "MSP": 0,
+      "MRP": 3000
     },
     {
       "SerialNo": 1097,
