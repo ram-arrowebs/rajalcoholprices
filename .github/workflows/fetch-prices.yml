@@ -45,6 +45,13 @@ jobs:
             head -c 500 "$raw" || true
             exit 1
           fi
+          # index.html reads exactly these keys; a renamed field upstream
+          # would otherwise be committed and render as "undefined".
+          if ! jq -e '.data | all(has("BrandName") and has("Packing") and has("MRP") and has("Type"))' "$raw" > /dev/null; then
+            echo "::error::Source rows are missing expected fields; keeping previous data"
+            jq -c '.data[0]' "$raw" || true
+            exit 1
+          fi
           echo "rows=$(jq '.data | length' "$raw")" >> "$GITHUB_STEP_SUMMARY"
 
       - name: Write data files

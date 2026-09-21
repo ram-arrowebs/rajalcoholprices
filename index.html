@@ -3,9 +3,6 @@
 
 <head>
   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-  <meta http-equiv="”Pragma”" content="”no-cache”" />
-  <meta http-equiv="”Expires”" content="”-1″" />
-  <meta http-equiv="”CACHE-CONTROL”" content="”NO-CACHE”" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
 
@@ -29,7 +26,8 @@
   <link rel="icon" type="image/png" sizes="96x96" href="./icon/favicon-96x96.png" />
   <link rel="icon" type="image/png" sizes="16x16" href="./icon/favicon-16x16.png" />
   <meta name="msapplication-TileColor" content="#ffffff" />
-  <meta name="msapplication-TileImage" content="./ms-icon-144x144.png" />
+  <meta name="msapplication-TileImage" content="./icon/ms-icon-144x144.png" />
+  <meta name="msapplication-config" content="./browserconfig.xml" />
   <meta name="theme-color" content="#ffffff" />
   <link rel="manifest" href="./manifest.webmanifest" />
   <link rel="stylesheet" type="text/css" href="./styles.css" />
@@ -79,6 +77,8 @@
     // daily into ./data by .github/workflows/fetch-prices.yml
     var pricesUrl = "./data/prices.json";
     var metaUrl = "./data/meta.json";
+    var offlineCopy = false;
+    var loadFailed = false;
 
     $(document).ready(function () {
       $("#overlay").show();
@@ -91,7 +91,7 @@
         .then((json) => {
           var rows = (json.data || []).map((row) => [
             row.BrandName,
-            row.Packing + "ml",
+            row.Packing, // numeric; "ml" is added at display time
             row.MRP,
             row.Type, // hidden column, drives the Type filter
           ]);
@@ -99,20 +99,35 @@
         })
         .catch((err) => {
           console.error("Failed to load price data", err);
+          loadFailed = true;
           $("#overlay").hide();
           $("#lastupdate").text("Could not load price data.");
         });
 
       fetch(metaUrl, { cache: "no-cache" })
-        .then((res) => (res.ok ? res.json() : null))
+        .then((res) => {
+          // Set by sw.js when the network was unreachable and this is the
+          // last downloaded copy.
+          offlineCopy = res.headers.get("X-Offline-Copy") === "1";
+          return res.ok ? res.json() : null;
+        })
         .then((meta) => {
-          if (meta && meta.fetchedAt) {
+          if (meta && meta.fetchedAt && !loadFailed) {
             $("#lastupdate").text(
-              "Updated " + new Date(meta.fetchedAt).toLocaleDateString("en-IN")
+              "Prices as of " +
+                new Date(meta.fetchedAt).toLocaleDateString("en-IN") +
+                (offlineCopy ? " (offline copy)" : "")
             );
           }
         })
         .catch(() => {});
+
+      // Cache the page, libraries and price data so it opens offline.
+      if ("serviceWorker" in navigator) {
+        navigator.serviceWorker.register("./sw.js").catch((err) => {
+          console.warn("Service worker registration failed", err);
+        });
+      }
     });
 
     // Abbreviations that stay upper-case when proper-casing names
@@ -188,7 +203,12 @@
               return toProperCase(data);
             },
           },
-          { className: "dt-right small-font" },
+          {
+            className: "dt-right small-font",
+            render: function (data, type) {
+              return type === "display" ? data + "ml" : data;
+            },
+          },
           {
             className: "dt-right",
             render: function (data, type) {

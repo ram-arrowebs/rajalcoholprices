@@ -6,6 +6,8 @@ The Google Sheets intermediary is gone. A GitHub Action (`.github/workflows/fetc
 
 The download is validated before it is written: if the source is unreachable, returns non-JSON, or returns an empty list, the run fails and the previously committed data is kept untouched. The workflow can also be triggered manually from the Actions tab.
 
+The page also works offline: a service worker (`sw.js`) keeps the app shell, its CDN libraries and the last downloaded price list on the device. When the network is unreachable the date label reads "Prices as of … (offline copy)".
+
 `data/` is gitignored for local development; the action force-adds the files it produces. To test locally, drop a copy of the source JSON at `data/prices.json` and serve the folder with any static server.
 
 The source is `https://iems.rajasthan.gov.in/ApprovedRateList/ApprovedRateList/ApprovedRateGridList?type=0`
