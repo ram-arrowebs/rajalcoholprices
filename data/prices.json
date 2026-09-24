@@ -11529,7 +11529,7 @@
       "MRP": 200
     },
     {
-      "SerialNo": 1775,
+      "SerialNo": 1939,
       "Type": "IMFL",
       "BrandName": "ROYAL STAG DOUBLE DARK PEATY WHISKY(Pints)",
       "Packing": 375,
@@ -11537,7 +11537,7 @@
       "MRP": 400
     },
     {
-      "SerialNo": 1939,
+      "SerialNo": 1775,
       "Type": "IMFL",
       "BrandName": "ROYAL STAG DOUBLE DARK PEATY WHISKY(Pints)",
       "Packing": 375,
@@ -13327,6 +13327,30 @@
       "Packing": 750,
       "MSP": 0,
       "MRP": 1850
+    },
+    {
+      "SerialNo": 2000,
+      "Type": "IMFL",
+      "BrandName": "THE INDIAN. EDIT FINEST PREMIUM WHISKY(500 ML)",
+      "Packing": 500,
+      "MSP": 0,
+      "MRP": 760
+    },
+    {
+      "SerialNo": 2001,
+      "Type": "IMFL",
+      "BrandName": "THE INDIAN. EDIT FINEST PREMIUM WHISKY(Nips)",
+      "Packing": 180,
+      "MSP": 0,
+      "MRP": 280
+    },
+    {
+      "SerialNo": 2002,
+      "Type": "IMFL",
+      "BrandName": "THE INDIAN. EDIT FINEST PREMIUM WHISKY(quarts)",
+      "Packing": 750,
+      "MSP": 0,
+      "MRP": 1100
     },
     {
       "SerialNo": 1472,
