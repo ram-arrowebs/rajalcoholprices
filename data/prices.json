@@ -5921,6 +5921,14 @@
       "MRP": 1400
     },
     {
+      "SerialNo": 2003,
+      "Type": "IMFL",
+      "BrandName": "FLINGIT EXOTIC PASSION(330 x 24)",
+      "Packing": 330,
+      "MSP": 0,
+      "MRP": 170
+    },
+    {
       "SerialNo": 1913,
       "Type": "IMFL",
       "BrandName": "FLOAT JAMUN MARTINI VODKA COCKTAIL(275 Ml)",
@@ -14791,6 +14799,14 @@
       "Packing": 750,
       "MSP": 0,
       "MRP": 7860
+    },
+    {
+      "SerialNo": 2004,
+      "Type": "IMFL",
+      "BrandName": "⁠FLINGIT CRAZY CRANBERRY(330 x 24)",
+      "Packing": 330,
+      "MSP": 0,
+      "MRP": 170
     },
     {
       "SerialNo": 9,
