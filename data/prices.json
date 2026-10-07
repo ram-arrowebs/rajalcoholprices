@@ -13582,6 +13582,33 @@
       "MRP": 960
     },
     {
+      "SerialNo": 2028,
+      "Type": "IMFL",
+      "SuplierName": "Pernod Recard India P. Ltd.",
+      "BrandName": "SEAGRAM`S XCLAMAT!ON PREMIER BLENDED BRANDY(Nips)",
+      "Packing": 180,
+      "MSP": 0,
+      "MRP": 240
+    },
+    {
+      "SerialNo": 2029,
+      "Type": "IMFL",
+      "SuplierName": "Pernod Recard India P. Ltd.",
+      "BrandName": "SEAGRAM`S XCLAMAT!ON PREMIER BLENDED BRANDY(Pints)",
+      "Packing": 375,
+      "MSP": 0,
+      "MRP": 490
+    },
+    {
+      "SerialNo": 2030,
+      "Type": "IMFL",
+      "SuplierName": "Pernod Recard India P. Ltd.",
+      "BrandName": "SEAGRAM`S XCLAMAT!ON PREMIER BLENDED BRANDY(quarts)",
+      "Packing": 750,
+      "MSP": 0,
+      "MRP": 960
+    },
+    {
       "SerialNo": 1769,
       "Type": "IMFL",
       "SuplierName": "FIDES SALES PRIVATE LIMITED",
