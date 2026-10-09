@@ -8848,6 +8848,15 @@
       "MRP": 2425
     },
     {
+      "SerialNo": 2031,
+      "Type": "IMFL",
+      "SuplierName": "Parsan Brothers",
+      "BrandName": "JOHNNIE WALKER BLUE FESTIVE BLEND BLENDED SCOTCH WHISKY(700ml(4 bottle))",
+      "Packing": 700,
+      "MSP": 0,
+      "MRP": 29320
+    },
+    {
       "SerialNo": 1938,
       "Type": "IMFL",
       "SuplierName": "Parsan Brothers",
@@ -9881,6 +9890,15 @@
       "Packing": 180,
       "MSP": 0,
       "MRP": 345
+    },
+    {
+      "SerialNo": 2032,
+      "Type": "IMFL",
+      "SuplierName": "Radico Khaitan Ltd-Reengus",
+      "BrandName": "M2 MAGIC MOMENTS JAMUN SPICYMINT RADIANT FLAVOURED VODKA(90 ml X 96 (PET))",
+      "Packing": 90,
+      "MSP": 0,
+      "MRP": 95
     },
     {
       "SerialNo": 354,
