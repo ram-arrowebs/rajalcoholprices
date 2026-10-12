@@ -9838,6 +9838,51 @@
       "MRP": 7175
     },
     {
+      "SerialNo": 2034,
+      "Type": "IMFL",
+      "SuplierName": "Radico Khaitan Ltd-Reengus",
+      "BrandName": "M2 MAGIC MOMENTS AAM PANNA RADIANT FLAVOURED VODKA(90 ml X 96 (PET))",
+      "Packing": 90,
+      "MSP": 0,
+      "MRP": 95
+    },
+    {
+      "SerialNo": 2035,
+      "Type": "IMFL",
+      "SuplierName": "Radico Khaitan Ltd-Reengus",
+      "BrandName": "M2 MAGIC MOMENTS AAM PANNA RADIANT FLAVOURED VODKA(Nips)",
+      "Packing": 180,
+      "MSP": 0,
+      "MRP": 190
+    },
+    {
+      "SerialNo": 2036,
+      "Type": "IMFL",
+      "SuplierName": "Radico Khaitan Ltd-Reengus",
+      "BrandName": "M2 MAGIC MOMENTS AAM PANNA RADIANT FLAVOURED VODKA(Nips-IMFL pet)",
+      "Packing": 180,
+      "MSP": 0,
+      "MRP": 190
+    },
+    {
+      "SerialNo": 2037,
+      "Type": "IMFL",
+      "SuplierName": "Radico Khaitan Ltd-Reengus",
+      "BrandName": "M2 MAGIC MOMENTS AAM PANNA RADIANT FLAVOURED VODKA(Pints)",
+      "Packing": 375,
+      "MSP": 0,
+      "MRP": 380
+    },
+    {
+      "SerialNo": 2038,
+      "Type": "IMFL",
+      "SuplierName": "Radico Khaitan Ltd-Reengus",
+      "BrandName": "M2 MAGIC MOMENTS AAM PANNA RADIANT FLAVOURED VODKA(quarts)",
+      "Packing": 750,
+      "MSP": 0,
+      "MRP": 760
+    },
+    {
       "SerialNo": 348,
       "Type": "IMFL",
       "SuplierName": "Radico Khaitan Ltd-Reengus",
@@ -10727,6 +10772,15 @@
       "Packing": 750,
       "MSP": 0,
       "MRP": 660
+    },
+    {
+      "SerialNo": 2033,
+      "Type": "IMFL",
+      "SuplierName": "United Spirits LTD ",
+      "BrandName": "MCDOWELLS NO 1  PREMIER WHISKY(Nips-IMFL pet)",
+      "Packing": 180,
+      "MSP": 0,
+      "MRP": 140
     },
     {
       "SerialNo": 424,
@@ -13159,18 +13213,18 @@
       "MRP": 200
     },
     {
-      "SerialNo": 1765,
+      "SerialNo": 1929,
       "Type": "IMFL",
-      "SuplierName": "Pernod Recard India P. Ltd.",
+      "SuplierName": "Rajasthan Liquors Ltd.  (IMFL)",
       "BrandName": "ROYAL STAG DOUBLE DARK PEATY WHISKY(Pints)",
       "Packing": 375,
       "MSP": 0,
       "MRP": 400
     },
     {
-      "SerialNo": 1929,
+      "SerialNo": 1765,
       "Type": "IMFL",
-      "SuplierName": "Rajasthan Liquors Ltd.  (IMFL)",
+      "SuplierName": "Pernod Recard India P. Ltd.",
       "BrandName": "ROYAL STAG DOUBLE DARK PEATY WHISKY(Pints)",
       "Packing": 375,
       "MSP": 0,
