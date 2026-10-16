@@ -12223,6 +12223,15 @@
       "MRP": 15300
     },
     {
+      "SerialNo": 2054,
+      "Type": "IMFL",
+      "SuplierName": "BACARDI INDIA PVT LTD SUB LESSEE OF BAPUNA ALCOBREW PVT LTD",
+      "BrandName": "PATRON ANEJO TEQUILA 100% DE AGAVE(quarts)",
+      "Packing": 750,
+      "MSP": 0,
+      "MRP": 13090
+    },
+    {
       "SerialNo": 490,
       "Type": "IMFL",
       "SuplierName": "BACARDI INDIA PVT LTD SUB LESSEE OF BAPUNA ALCOBREW PVT LTD",
@@ -12241,6 +12250,15 @@
       "MRP": 32030
     },
     {
+      "SerialNo": 2055,
+      "Type": "IMFL",
+      "SuplierName": "BACARDI INDIA PVT LTD SUB LESSEE OF BAPUNA ALCOBREW PVT LTD",
+      "BrandName": "PATRON REPOSADO TEQUILA 100% DE AGAVE(quarts)",
+      "Packing": 750,
+      "MSP": 0,
+      "MRP": 10650
+    },
+    {
       "SerialNo": 492,
       "Type": "IMFL",
       "SuplierName": "BACARDI INDIA PVT LTD SUB LESSEE OF BAPUNA ALCOBREW PVT LTD",
@@ -12257,6 +12275,15 @@
       "Packing": 750,
       "MSP": 0,
       "MRP": 7215
+    },
+    {
+      "SerialNo": 2056,
+      "Type": "IMFL",
+      "SuplierName": "BACARDI INDIA PVT LTD SUB LESSEE OF BAPUNA ALCOBREW PVT LTD",
+      "BrandName": "PATRON SILVER TEQUILA 100% DE AGAVE(quarts)",
+      "Packing": 750,
+      "MSP": 0,
+      "MRP": 9700
     },
     {
       "SerialNo": 494,
@@ -13195,18 +13222,18 @@
       "MRP": 210
     },
     {
-      "SerialNo": 1893,
+      "SerialNo": 1762,
       "Type": "IMFL",
-      "SuplierName": "Pernod Recard India P. Ltd.",
+      "SuplierName": "Rajasthan Liquors Ltd.  (IMFL)",
       "BrandName": "ROYAL STAG BARREL SELECT PREMIER WHISKY(Pints)",
       "Packing": 375,
       "MSP": 0,
       "MRP": 425
     },
     {
-      "SerialNo": 1762,
+      "SerialNo": 1893,
       "Type": "IMFL",
-      "SuplierName": "Rajasthan Liquors Ltd.  (IMFL)",
+      "SuplierName": "Pernod Recard India P. Ltd.",
       "BrandName": "ROYAL STAG BARREL SELECT PREMIER WHISKY(Pints)",
       "Packing": 375,
       "MSP": 0,
