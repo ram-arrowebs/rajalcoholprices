@@ -13996,6 +13996,24 @@
       "MRP": 1750
     },
     {
+      "SerialNo": 2061,
+      "Type": "IMFL",
+      "SuplierName": "United Spirits Ltd",
+      "BrandName": "SMIRNOFF MINTY JAMUN TRIPLE DISTILLED FLAVOURED VODKA(90 ml X 96 (PET))",
+      "Packing": 90,
+      "MSP": 0,
+      "MRP": 125
+    },
+    {
+      "SerialNo": 2062,
+      "Type": "IMFL",
+      "SuplierName": "United Spirits Ltd",
+      "BrandName": "SMIRNOFF MINTY JAMUN TRIPLE DISTILLED FLAVOURED VODKA(Pints)",
+      "Packing": 375,
+      "MSP": 0,
+      "MRP": 500
+    },
+    {
       "SerialNo": 592,
       "Type": "IMFL",
       "SuplierName": "United Spirits LTD ",
