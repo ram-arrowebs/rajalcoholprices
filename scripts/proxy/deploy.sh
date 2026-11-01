@@ -8,10 +8,11 @@
 #   IAM user      rajalcoholprices-fetch       may only invoke that URL;
 #                 its access key is rotated on every run
 #
-# and on the GitHub repo:
-#   variable SOURCE_URL             the Function URL
-#   secrets  AWS_ACCESS_KEY_ID      the fetch user's key
-#            AWS_SECRET_ACCESS_KEY
+# and on the GitHub repo, all as secrets so the runner masks them in the
+# public Actions log:
+#   SOURCE_URL             the Function URL
+#   AWS_ACCESS_KEY_ID      the fetch user's key
+#   AWS_SECRET_ACCESS_KEY
 #
 # Needs: aws (authenticated), gh (authenticated), zip, curl, jq.
 # Cost: one invocation a day sits inside the Lambda free tier.
@@ -39,8 +40,8 @@ if [ "${1:-}" = "--destroy" ]; then
   aws iam delete-user-policy --user-name "$USER_NAME" --policy-name invoke-proxy 2> /dev/null || true
   aws iam delete-user --user-name "$USER_NAME" 2> /dev/null || true
   gh variable delete SOURCE_URL 2> /dev/null || true
-  for s in AWS_ACCESS_KEY_ID AWS_SECRET_ACCESS_KEY PROXY_TOKEN; do gh secret delete "$s" 2> /dev/null || true; done
-  echo "Removed Lambda, role, fetch user, and the repo variable/secrets."
+  for s in SOURCE_URL AWS_ACCESS_KEY_ID AWS_SECRET_ACCESS_KEY PROXY_TOKEN; do gh secret delete "$s" 2> /dev/null || true; done
+  echo "Removed Lambda, role, fetch user, and the repo secrets."
   exit 0
 fi
 
@@ -147,9 +148,11 @@ if [ "$code_unsigned" != "403" ] || [ "$rows" -le 0 ]; then
 fi
 
 # --- GitHub -----------------------------------------------------------------
-gh variable set SOURCE_URL --body "$url"
+gh secret set SOURCE_URL --body "$url"
 gh secret set AWS_ACCESS_KEY_ID --body "$ak"
 gh secret set AWS_SECRET_ACCESS_KEY --body "$sk"
+# Leftovers from earlier versions that stored these differently.
+gh variable delete SOURCE_URL 2> /dev/null || true
 gh secret delete PROXY_TOKEN 2> /dev/null || true
-echo "Set repo variable SOURCE_URL=$url and the AWS_* secrets."
+echo "Set repo secrets SOURCE_URL ($url) and AWS_*."
 echo "Trigger a run with: gh workflow run fetch-prices.yml --ref main"
