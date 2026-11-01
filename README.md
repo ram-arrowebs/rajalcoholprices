@@ -6,6 +6,8 @@ The Google Sheets intermediary is gone. A GitHub Action (`.github/workflows/fetc
 
 The download is validated before it is written: if the source is unreachable, returns non-JSON, or returns an empty list, the run fails and the previously committed data is kept untouched. The workflow can also be triggered manually from the Actions tab.
 
+The IEMS host only accepts connections from Indian IP addresses, which GitHub-hosted runners do not have. The workflow therefore fetches through a small fixed-target proxy running as an AWS Lambda in Mumbai (`scripts/proxy/`, deployed with `scripts/proxy/deploy.sh`, which also sets the `SOURCE_URL` variable and the `AWS_*` secrets the workflow uses to sign requests to the proxy's IAM-authenticated URL). Alternatively, register a self-hosted runner in India and set the `FETCH_RUNNER` repository variable to its label. From a machine in India you can also refresh the data by hand with `scripts/publish-prices.sh`, which fetches, validates and pushes to `main` without touching your checkout.
+
 The page also works offline: a service worker (`sw.js`) keeps the app shell, its CDN libraries and the last downloaded price list on the device. When the network is unreachable the date label reads "Prices as of … (offline copy)".
 
 `data/` is gitignored for local development; the action force-adds the files it produces. To test locally, drop a copy of the source JSON at `data/prices.json` and serve the folder with any static server.
