@@ -18,15 +18,16 @@ concurrency:
 # a fixed-target proxy Lambda in AWS Mumbai behind an IAM-authenticated
 # Function URL and sets the first three of these
 # (Settings > Secrets and variables > Actions):
-#   SOURCE_URL             variable: the proxy's Function URL; unset uses
-#                          the IEMS endpoint directly
+#   SOURCE_URL             secret: the proxy's Function URL; unset uses the
+#                          IEMS endpoint directly. A secret rather than a
+#                          variable so the runner masks it in the public log.
 #   AWS_ACCESS_KEY_ID      secrets: keys of an IAM user that may only
 #   AWS_SECRET_ACCESS_KEY  invoke that URL; the fetch script SigV4-signs
 #   FETCH_RUNNER           variable: label of a self-hosted runner located in
 #                          India, e.g. "self-hosted", as an alternative to
 #                          the proxy; unset falls back to ubuntu-latest
 env:
-  SOURCE_URL: ${{ vars.SOURCE_URL || 'https://iems.rajasthan.gov.in/ApprovedRateList/ApprovedRateList/ApprovedRateGridList?type=0' }}
+  SOURCE_URL: ${{ secrets.SOURCE_URL || 'https://iems.rajasthan.gov.in/ApprovedRateList/ApprovedRateList/ApprovedRateGridList?type=0' }}
   AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
   AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
   TARGET: data/prices.json
