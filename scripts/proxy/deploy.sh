@@ -39,8 +39,7 @@ if [ "${1:-}" = "--destroy" ]; then
   delete_user_keys
   aws iam delete-user-policy --user-name "$USER_NAME" --policy-name invoke-proxy 2> /dev/null || true
   aws iam delete-user --user-name "$USER_NAME" 2> /dev/null || true
-  gh variable delete SOURCE_URL 2> /dev/null || true
-  for s in SOURCE_URL AWS_ACCESS_KEY_ID AWS_SECRET_ACCESS_KEY PROXY_TOKEN; do gh secret delete "$s" 2> /dev/null || true; done
+  for s in SOURCE_URL AWS_ACCESS_KEY_ID AWS_SECRET_ACCESS_KEY; do gh secret delete "$s" 2> /dev/null || true; done
   echo "Removed Lambda, role, fetch user, and the repo secrets."
   exit 0
 fi
@@ -74,10 +73,6 @@ fi
 if aws lambda get-function --region "$REGION" --function-name "$NAME" > /dev/null 2>&1; then
   aws lambda update-function-code --region "$REGION" --function-name "$NAME" \
       --zip-file "fileb://$tmp/proxy.zip" > /dev/null
-  aws lambda wait function-updated --region "$REGION" --function-name "$NAME"
-  # Drop any environment left over from earlier token-based versions.
-  aws lambda update-function-configuration --region "$REGION" --function-name "$NAME" \
-      --environment '{"Variables":{}}' > /dev/null
   echo "Updated Lambda $NAME"
 else
   for attempt in 1 2 3 4 5; do
@@ -110,10 +105,6 @@ else
            --auth-type AWS_IAM --query FunctionUrl --output text)"
   echo "Created Function URL"
 fi
-# Remove the public-access grant from earlier versions, if present.
-aws lambda remove-permission --region "$REGION" --function-name "$NAME" \
-    --statement-id public-url 2> /dev/null && echo "Removed public-url permission" || true
-
 # --- Fetch user: may only invoke this one URL -------------------------------
 if ! aws iam get-user --user-name "$USER_NAME" > /dev/null 2>&1; then
   aws iam create-user --user-name "$USER_NAME" > /dev/null
@@ -151,8 +142,5 @@ fi
 gh secret set SOURCE_URL --body "$url"
 gh secret set AWS_ACCESS_KEY_ID --body "$ak"
 gh secret set AWS_SECRET_ACCESS_KEY --body "$sk"
-# Leftovers from earlier versions that stored these differently.
-gh variable delete SOURCE_URL 2> /dev/null || true
-gh secret delete PROXY_TOKEN 2> /dev/null || true
 echo "Set repo secrets SOURCE_URL ($url) and AWS_*."
 echo "Trigger a run with: gh workflow run fetch-prices.yml --ref main"
