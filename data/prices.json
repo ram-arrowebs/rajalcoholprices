@@ -7309,6 +7309,15 @@
       "MRP": 6845
     },
     {
+      "SerialNo": 2066,
+      "Type": "IMFL",
+      "SuplierName": "Sonarys Co Brands",
+      "BrandName": "GAJA ROSSJ BASS LANGHE DOP(750 ML (6 Bottles))",
+      "Packing": 750,
+      "MSP": 0,
+      "MRP": 46660
+    },
+    {
       "SerialNo": 1209,
       "Type": "IMFL",
       "SuplierName": "Sonarys Co Brands",
@@ -7784,6 +7793,15 @@
       "Packing": 750,
       "MSP": 0,
       "MRP": 4500
+    },
+    {
+      "SerialNo": 2067,
+      "Type": "IMFL",
+      "SuplierName": "Sonarys Co Brands",
+      "BrandName": "GUIDALBERTO DI SASSICAIA IGT TOSCANA(750 ML (6 Bottles))",
+      "Packing": 750,
+      "MSP": 0,
+      "MRP": 18695
     },
     {
       "SerialNo": 1226,
@@ -9548,6 +9566,15 @@
       "Packing": 750,
       "MSP": 0,
       "MRP": 23020
+    },
+    {
+      "SerialNo": 2068,
+      "Type": "IMFL",
+      "SuplierName": "Sonarys Co Brands",
+      "BrandName": "LE SERRE NUOVE DELLE ORNELLAIA(750 ML (6 Bottles))",
+      "Packing": 750,
+      "MSP": 0,
+      "MRP": 36815
     },
     {
       "SerialNo": 333,
@@ -13258,18 +13285,18 @@
       "MRP": 210
     },
     {
-      "SerialNo": 1811,
+      "SerialNo": 1715,
       "Type": "IMFL",
-      "SuplierName": "Pernod Recard India P. Ltd.",
+      "SuplierName": "Rajasthan Liquors Ltd.  (IMFL)",
       "BrandName": "ROYAL STAG BARREL SELECT PREMIER WHISKY(Pints)",
       "Packing": 375,
       "MSP": 0,
       "MRP": 425
     },
     {
-      "SerialNo": 1715,
+      "SerialNo": 1811,
       "Type": "IMFL",
-      "SuplierName": "Rajasthan Liquors Ltd.  (IMFL)",
+      "SuplierName": "Pernod Recard India P. Ltd.",
       "BrandName": "ROYAL STAG BARREL SELECT PREMIER WHISKY(Pints)",
       "Packing": 375,
       "MSP": 0,
@@ -13393,18 +13420,18 @@
       "MRP": 200
     },
     {
-      "SerialNo": 1846,
+      "SerialNo": 1718,
       "Type": "IMFL",
-      "SuplierName": "Rajasthan Liquors Ltd.  (IMFL)",
+      "SuplierName": "Pernod Recard India P. Ltd.",
       "BrandName": "ROYAL STAG DOUBLE DARK PEATY WHISKY(Pints)",
       "Packing": 375,
       "MSP": 0,
       "MRP": 400
     },
     {
-      "SerialNo": 1718,
+      "SerialNo": 1846,
       "Type": "IMFL",
-      "SuplierName": "Pernod Recard India P. Ltd.",
+      "SuplierName": "Rajasthan Liquors Ltd.  (IMFL)",
       "BrandName": "ROYAL STAG DOUBLE DARK PEATY WHISKY(Pints)",
       "Packing": 375,
       "MSP": 0,
