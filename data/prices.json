@@ -8209,6 +8209,24 @@
       "MRP": 15630
     },
     {
+      "SerialNo": 2069,
+      "Type": "IMFL",
+      "SuplierName": "Parsan Brothers",
+      "BrandName": "HIGHLAND PARK SINGLE MALT SCOTCH WHISKY AGED 12 YEARS(700 ML (6 Bottle))",
+      "Packing": 700,
+      "MSP": 0,
+      "MRP": 5585
+    },
+    {
+      "SerialNo": 2070,
+      "Type": "IMFL",
+      "SuplierName": "Parsan Brothers",
+      "BrandName": "HIGHLAND PARK SINGLE MALT SCOTCH WHISKY AGED 15 YEARS(700 ML (6 Bottle))",
+      "Packing": 700,
+      "MSP": 0,
+      "MRP": 8390
+    },
+    {
       "SerialNo": 1247,
       "Type": "IMFL",
       "SuplierName": "ASSOCIATED ALCOHOLS AND BREWERIES LIMITED",
@@ -12115,6 +12133,78 @@
       "MRP": 750
     },
     {
+      "SerialNo": 2071,
+      "Type": "IMFL",
+      "SuplierName": "SUPER DISTILLERIES PVT LTD",
+      "BrandName": "OLD SCHOOL TRIPPLE DISTILLED JAMUN FLAVOURED VODKA(Hipster pet (180 ml))",
+      "Packing": 180,
+      "MSP": 0,
+      "MRP": 115
+    },
+    {
+      "SerialNo": 2072,
+      "Type": "IMFL",
+      "SuplierName": "SUPER DISTILLERIES PVT LTD",
+      "BrandName": "OLD SCHOOL TRIPPLE DISTILLED JAMUN FLAVOURED VODKA(Nips)",
+      "Packing": 180,
+      "MSP": 0,
+      "MRP": 115
+    },
+    {
+      "SerialNo": 2073,
+      "Type": "IMFL",
+      "SuplierName": "SUPER DISTILLERIES PVT LTD",
+      "BrandName": "OLD SCHOOL TRIPPLE DISTILLED JAMUN FLAVOURED VODKA(Pints)",
+      "Packing": 375,
+      "MSP": 0,
+      "MRP": 230
+    },
+    {
+      "SerialNo": 2074,
+      "Type": "IMFL",
+      "SuplierName": "SUPER DISTILLERIES PVT LTD",
+      "BrandName": "OLD SCHOOL TRIPPLE DISTILLED JAMUN FLAVOURED VODKA(quarts)",
+      "Packing": 750,
+      "MSP": 0,
+      "MRP": 455
+    },
+    {
+      "SerialNo": 2075,
+      "Type": "IMFL",
+      "SuplierName": "SUPER DISTILLERIES PVT LTD",
+      "BrandName": "OLD SCHOOL TRIPPLE DISTILLED PURE GRAINVODKA(Hipster pet (180 ml))",
+      "Packing": 180,
+      "MSP": 0,
+      "MRP": 120
+    },
+    {
+      "SerialNo": 2076,
+      "Type": "IMFL",
+      "SuplierName": "SUPER DISTILLERIES PVT LTD",
+      "BrandName": "OLD SCHOOL TRIPPLE DISTILLED PURE GRAINVODKA(Nips)",
+      "Packing": 180,
+      "MSP": 0,
+      "MRP": 120
+    },
+    {
+      "SerialNo": 2077,
+      "Type": "IMFL",
+      "SuplierName": "SUPER DISTILLERIES PVT LTD",
+      "BrandName": "OLD SCHOOL TRIPPLE DISTILLED PURE GRAINVODKA(Pints)",
+      "Packing": 375,
+      "MSP": 0,
+      "MRP": 245
+    },
+    {
+      "SerialNo": 2078,
+      "Type": "IMFL",
+      "SuplierName": "SUPER DISTILLERIES PVT LTD",
+      "BrandName": "OLD SCHOOL TRIPPLE DISTILLED PURE GRAINVODKA(quarts)",
+      "Packing": 750,
+      "MSP": 0,
+      "MRP": 490
+    },
+    {
       "SerialNo": 1615,
       "Type": "IMFL",
       "SuplierName": "ALCOBREW DISTILLERIES INDIA LTD. ",
@@ -13285,18 +13375,18 @@
       "MRP": 210
     },
     {
-      "SerialNo": 1715,
+      "SerialNo": 1811,
       "Type": "IMFL",
-      "SuplierName": "Rajasthan Liquors Ltd.  (IMFL)",
+      "SuplierName": "Pernod Recard India P. Ltd.",
       "BrandName": "ROYAL STAG BARREL SELECT PREMIER WHISKY(Pints)",
       "Packing": 375,
       "MSP": 0,
       "MRP": 425
     },
     {
-      "SerialNo": 1811,
+      "SerialNo": 1715,
       "Type": "IMFL",
-      "SuplierName": "Pernod Recard India P. Ltd.",
+      "SuplierName": "Rajasthan Liquors Ltd.  (IMFL)",
       "BrandName": "ROYAL STAG BARREL SELECT PREMIER WHISKY(Pints)",
       "Packing": 375,
       "MSP": 0,
@@ -15535,6 +15625,15 @@
       "MRP": 1100
     },
     {
+      "SerialNo": 2079,
+      "Type": "IMFL",
+      "SuplierName": "Parsan Brothers",
+      "BrandName": "THE MACALLAN 12 YEARS OLD HIGHLAND SINGLE MALT SCOTCH WHISKY SHERRY OAK COLLECTION(700 ML (6 Bottle))",
+      "Packing": 700,
+      "MSP": 0,
+      "MRP": 10385
+    },
+    {
       "SerialNo": 1422,
       "Type": "IMFL",
       "SuplierName": "Parsan Brothers",
@@ -15553,6 +15652,15 @@
       "MRP": 11015
     },
     {
+      "SerialNo": 2080,
+      "Type": "IMFL",
+      "SuplierName": "Parsan Brothers",
+      "BrandName": "THE MACALLAN 15 YEARS OLD HIGHLAND SINGLE MALT SCOTCH WHISKY DOUBLE CASK COLLECTION(700 ML (6 Bottle))",
+      "Packing": 700,
+      "MSP": 0,
+      "MRP": 19490
+    },
+    {
       "SerialNo": 1424,
       "Type": "IMFL",
       "SuplierName": "Parsan Brothers",
@@ -15560,6 +15668,15 @@
       "Packing": 700,
       "MSP": 0,
       "MRP": 20440
+    },
+    {
+      "SerialNo": 2081,
+      "Type": "IMFL",
+      "SuplierName": "Parsan Brothers",
+      "BrandName": "THE MACALLAN 18 YEARS OLD HIGHLAND SINGLE MALT SCOTCH WHISKY SHERRY OAK COLLECTION(700 ML (6 Bottle))",
+      "Packing": 700,
+      "MSP": 0,
+      "MRP": 45335
     },
     {
       "SerialNo": 1425,
@@ -15580,6 +15697,24 @@
       "MRP": 47000
     },
     {
+      "SerialNo": 2082,
+      "Type": "IMFL",
+      "SuplierName": "Parsan Brothers",
+      "BrandName": "THE MACALLAN 25 YEARS OLD HIGHLAND SINGLE MALT SCOTCH WHISKY SHERRY OAK COLLECTION(700 x 1 (Per Case))",
+      "Packing": 700,
+      "MSP": 0,
+      "MRP": 305735
+    },
+    {
+      "SerialNo": 2083,
+      "Type": "IMFL",
+      "SuplierName": "Parsan Brothers",
+      "BrandName": "THE MACALLAN 30 YEARS OLD HIGHLAND SINGLE MALT SCOTCH WHISKY SHERRY OAK COLLECTION(700 x 1 (Per Case))",
+      "Packing": 700,
+      "MSP": 0,
+      "MRP": 581280
+    },
+    {
       "SerialNo": 1427,
       "Type": "IMFL",
       "SuplierName": "Parsan Brothers",
@@ -15587,6 +15722,15 @@
       "Packing": 750,
       "MSP": 0,
       "MRP": 263300
+    },
+    {
+      "SerialNo": 2084,
+      "Type": "IMFL",
+      "SuplierName": "Parsan Brothers",
+      "BrandName": "THE MACALLAN HIGHLAND SINGLE MALT SCOTCH WHISKY A NIGHT ON EARTH - THE FINALE(700 ML (6 Bottle))",
+      "Packing": 700,
+      "MSP": 0,
+      "MRP": 13980
     },
     {
       "SerialNo": 1428,
@@ -15605,6 +15749,33 @@
       "Packing": 700,
       "MSP": 0,
       "MRP": 158750
+    },
+    {
+      "SerialNo": 2085,
+      "Type": "IMFL",
+      "SuplierName": "Parsan Brothers",
+      "BrandName": "THE MACALLAN HIGHLAND SINGLE MALT SCOTCH WHISKY TIMES SPACE: SHERRY CASK(700 x 1 (Per Case))",
+      "Packing": 700,
+      "MSP": 0,
+      "MRP": 158475
+    },
+    {
+      "SerialNo": 2086,
+      "Type": "IMFL",
+      "SuplierName": "Parsan Brothers",
+      "BrandName": "THE MACALLAN M HIGHLAND SINGLE MALT SCOTCH WHISKY BLACK (700 x 1 (Per Case))",
+      "Packing": 700,
+      "MSP": 0,
+      "MRP": 1133635
+    },
+    {
+      "SerialNo": 2087,
+      "Type": "IMFL",
+      "SuplierName": "Parsan Brothers",
+      "BrandName": "THE MACALLAN M HIGHLAND SINGLE MALT SCOTCH WHISKY (700 x 1 (Per Case))",
+      "Packing": 700,
+      "MSP": 0,
+      "MRP": 939260
     },
     {
       "SerialNo": 1710,
