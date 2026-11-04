@@ -14104,6 +14104,78 @@
       "MRP": 2090
     },
     {
+      "SerialNo": 2079,
+      "Type": "IMFL",
+      "SuplierName": "JKY SPIRITS PVT LTD",
+      "BrandName": "SIPZY CRANBERRY CELLAR(330 ml)",
+      "Packing": 330,
+      "MSP": 0,
+      "MRP": 165
+    },
+    {
+      "SerialNo": 2080,
+      "Type": "IMFL",
+      "SuplierName": "JKY SPIRITS PVT LTD",
+      "BrandName": "SIPZY JAMUN CASK(330 ml)",
+      "Packing": 330,
+      "MSP": 0,
+      "MRP": 165
+    },
+    {
+      "SerialNo": 2081,
+      "Type": "IMFL",
+      "SuplierName": "JKY SPIRITS PVT LTD",
+      "BrandName": "SIPZY MANGO MIRAGE(330 ml)",
+      "Packing": 330,
+      "MSP": 0,
+      "MRP": 165
+    },
+    {
+      "SerialNo": 2082,
+      "Type": "IMFL",
+      "SuplierName": "JKY SPIRITS PVT LTD",
+      "BrandName": "SIPZY MOJITO DRIFT(275 Ml)",
+      "Packing": 275,
+      "MSP": 0,
+      "MRP": 130
+    },
+    {
+      "SerialNo": 2083,
+      "Type": "IMFL",
+      "SuplierName": "JKY SPIRITS PVT LTD",
+      "BrandName": "SIPZY MOJITO HERITAGE(330 ml)",
+      "Packing": 330,
+      "MSP": 0,
+      "MRP": 165
+    },
+    {
+      "SerialNo": 2084,
+      "Type": "IMFL",
+      "SuplierName": "JKY SPIRITS PVT LTD",
+      "BrandName": "SIPZY ORANGE OAK(330 ml)",
+      "Packing": 330,
+      "MSP": 0,
+      "MRP": 165
+    },
+    {
+      "SerialNo": 2085,
+      "Type": "IMFL",
+      "SuplierName": "JKY SPIRITS PVT LTD",
+      "BrandName": "SIPZY ORANGE VOLTAGE(275 Ml)",
+      "Packing": 275,
+      "MSP": 0,
+      "MRP": 130
+    },
+    {
+      "SerialNo": 2086,
+      "Type": "IMFL",
+      "SuplierName": "JKY SPIRITS PVT LTD",
+      "BrandName": "SIPZY WATERMELON WAVE(275 Ml)",
+      "Packing": 275,
+      "MSP": 0,
+      "MRP": 130
+    },
+    {
       "SerialNo": 1820,
       "Type": "IMFL",
       "SuplierName": "Spaceman",
@@ -15625,7 +15697,7 @@
       "MRP": 1100
     },
     {
-      "SerialNo": 2079,
+      "SerialNo": 2087,
       "Type": "IMFL",
       "SuplierName": "Parsan Brothers",
       "BrandName": "THE MACALLAN 12 YEARS OLD HIGHLAND SINGLE MALT SCOTCH WHISKY SHERRY OAK COLLECTION(700 ML (6 Bottle))",
@@ -15652,7 +15724,7 @@
       "MRP": 11015
     },
     {
-      "SerialNo": 2080,
+      "SerialNo": 2088,
       "Type": "IMFL",
       "SuplierName": "Parsan Brothers",
       "BrandName": "THE MACALLAN 15 YEARS OLD HIGHLAND SINGLE MALT SCOTCH WHISKY DOUBLE CASK COLLECTION(700 ML (6 Bottle))",
@@ -15670,7 +15742,7 @@
       "MRP": 20440
     },
     {
-      "SerialNo": 2081,
+      "SerialNo": 2089,
       "Type": "IMFL",
       "SuplierName": "Parsan Brothers",
       "BrandName": "THE MACALLAN 18 YEARS OLD HIGHLAND SINGLE MALT SCOTCH WHISKY SHERRY OAK COLLECTION(700 ML (6 Bottle))",
@@ -15697,7 +15769,7 @@
       "MRP": 47000
     },
     {
-      "SerialNo": 2082,
+      "SerialNo": 2090,
       "Type": "IMFL",
       "SuplierName": "Parsan Brothers",
       "BrandName": "THE MACALLAN 25 YEARS OLD HIGHLAND SINGLE MALT SCOTCH WHISKY SHERRY OAK COLLECTION(700 x 1 (Per Case))",
@@ -15706,7 +15778,7 @@
       "MRP": 305735
     },
     {
-      "SerialNo": 2083,
+      "SerialNo": 2091,
       "Type": "IMFL",
       "SuplierName": "Parsan Brothers",
       "BrandName": "THE MACALLAN 30 YEARS OLD HIGHLAND SINGLE MALT SCOTCH WHISKY SHERRY OAK COLLECTION(700 x 1 (Per Case))",
@@ -15724,7 +15796,7 @@
       "MRP": 263300
     },
     {
-      "SerialNo": 2084,
+      "SerialNo": 2092,
       "Type": "IMFL",
       "SuplierName": "Parsan Brothers",
       "BrandName": "THE MACALLAN HIGHLAND SINGLE MALT SCOTCH WHISKY A NIGHT ON EARTH - THE FINALE(700 ML (6 Bottle))",
@@ -15751,7 +15823,7 @@
       "MRP": 158750
     },
     {
-      "SerialNo": 2085,
+      "SerialNo": 2093,
       "Type": "IMFL",
       "SuplierName": "Parsan Brothers",
       "BrandName": "THE MACALLAN HIGHLAND SINGLE MALT SCOTCH WHISKY TIMES SPACE: SHERRY CASK(700 x 1 (Per Case))",
@@ -15760,7 +15832,7 @@
       "MRP": 158475
     },
     {
-      "SerialNo": 2086,
+      "SerialNo": 2094,
       "Type": "IMFL",
       "SuplierName": "Parsan Brothers",
       "BrandName": "THE MACALLAN M HIGHLAND SINGLE MALT SCOTCH WHISKY BLACK (700 x 1 (Per Case))",
@@ -15769,7 +15841,7 @@
       "MRP": 1133635
     },
     {
-      "SerialNo": 2087,
+      "SerialNo": 2095,
       "Type": "IMFL",
       "SuplierName": "Parsan Brothers",
       "BrandName": "THE MACALLAN M HIGHLAND SINGLE MALT SCOTCH WHISKY (700 x 1 (Per Case))",
