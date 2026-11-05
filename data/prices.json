@@ -4123,6 +4123,15 @@
       "MRP": 550
     },
     {
+      "SerialNo": 2096,
+      "Type": "IMFL",
+      "SuplierName": "United Spirits LTD ",
+      "BrandName": "BLACK AND WHITE BLENDED SCOTCH WHISKY(Pints)",
+      "Packing": 375,
+      "MSP": 0,
+      "MRP": 1045
+    },
+    {
       "SerialNo": 68,
       "Type": "IMFL",
       "SuplierName": "United Spirits LTD ",
@@ -13510,18 +13519,18 @@
       "MRP": 200
     },
     {
-      "SerialNo": 1718,
+      "SerialNo": 1846,
       "Type": "IMFL",
-      "SuplierName": "Pernod Recard India P. Ltd.",
+      "SuplierName": "Rajasthan Liquors Ltd.  (IMFL)",
       "BrandName": "ROYAL STAG DOUBLE DARK PEATY WHISKY(Pints)",
       "Packing": 375,
       "MSP": 0,
       "MRP": 400
     },
     {
-      "SerialNo": 1846,
+      "SerialNo": 1718,
       "Type": "IMFL",
-      "SuplierName": "Rajasthan Liquors Ltd.  (IMFL)",
+      "SuplierName": "Pernod Recard India P. Ltd.",
       "BrandName": "ROYAL STAG DOUBLE DARK PEATY WHISKY(Pints)",
       "Packing": 375,
       "MSP": 0,
