@@ -14257,6 +14257,42 @@
       "MRP": 1750
     },
     {
+      "SerialNo": 2102,
+      "Type": "IMFL",
+      "SuplierName": "United Spirits LTD ",
+      "BrandName": "SMIRNOFF COFFEE TOFFEE TWIST TRIPLE DISTILLED FLAVOURED VODKA(Nips-IMFL pet)",
+      "Packing": 180,
+      "MSP": 0,
+      "MRP": 260
+    },
+    {
+      "SerialNo": 2103,
+      "Type": "IMFL",
+      "SuplierName": "United Spirits LTD ",
+      "BrandName": "SMIRNOFF COFFEE TOFFEE TWIST TRIPLE DISTILLED FLAVOURED VODKA(quarts)",
+      "Packing": 750,
+      "MSP": 0,
+      "MRP": 1000
+    },
+    {
+      "SerialNo": 2104,
+      "Type": "IMFL",
+      "SuplierName": "United Spirits LTD ",
+      "BrandName": "SMIRNOFF KACHCHA MANGO TWIST TRIPLE DISTILLED FLAVOURED VODKA(Nips-IMFL pet)",
+      "Packing": 180,
+      "MSP": 0,
+      "MRP": 260
+    },
+    {
+      "SerialNo": 2105,
+      "Type": "IMFL",
+      "SuplierName": "United Spirits LTD ",
+      "BrandName": "SMIRNOFF KACHCHA MANGO TWIST TRIPLE DISTILLED FLAVOURED VODKA(quarts)",
+      "Packing": 750,
+      "MSP": 0,
+      "MRP": 1000
+    },
+    {
       "SerialNo": 1969,
       "Type": "IMFL",
       "SuplierName": "United Spirits Ltd",
