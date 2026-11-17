@@ -11647,6 +11647,42 @@
       "MRP": 1085
     },
     {
+      "SerialNo": 2106,
+      "Type": "IMFL",
+      "SuplierName": "SHWETA SPIRITS PRIVATE LIMITED",
+      "BrandName": "NZ WINE MERLOT(quarts)",
+      "Packing": 750,
+      "MSP": 0,
+      "MRP": 2600
+    },
+    {
+      "SerialNo": 2107,
+      "Type": "IMFL",
+      "SuplierName": "SHWETA SPIRITS PRIVATE LIMITED",
+      "BrandName": "NZ WINE PINOT GRIS(quarts)",
+      "Packing": 750,
+      "MSP": 0,
+      "MRP": 2565
+    },
+    {
+      "SerialNo": 2108,
+      "Type": "IMFL",
+      "SuplierName": "SHWETA SPIRITS PRIVATE LIMITED",
+      "BrandName": "NZ WINE PINOT NOIR(quarts)",
+      "Packing": 750,
+      "MSP": 0,
+      "MRP": 3280
+    },
+    {
+      "SerialNo": 2109,
+      "Type": "IMFL",
+      "SuplierName": "SHWETA SPIRITS PRIVATE LIMITED",
+      "BrandName": "NZ WINE ROSE(quarts)",
+      "Packing": 750,
+      "MSP": 0,
+      "MRP": 2565
+    },
+    {
       "SerialNo": 1364,
       "Type": "IMFL",
       "SuplierName": "Aspri  Spirits Pvt Ltd",
@@ -13022,6 +13058,15 @@
       "Packing": 700,
       "MSP": 0,
       "MRP": 14355
+    },
+    {
+      "SerialNo": 2110,
+      "Type": "IMFL",
+      "SuplierName": "SHWETA SPIRITS PRIVATE LIMITED",
+      "BrandName": "RICH RUBY(quarts)",
+      "Packing": 750,
+      "MSP": 0,
+      "MRP": 3030
     },
     {
       "SerialNo": 1014,
