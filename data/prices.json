@@ -2449,6 +2449,15 @@
       "MRP": 2170
     },
     {
+      "SerialNo": 2111,
+      "Type": "IMFL",
+      "SuplierName": "Mehra Wines Private Limited",
+      "BrandName": "100 STORIES DOUBLE DARK RUM(700 ML (6 Bottle))",
+      "Packing": 700,
+      "MSP": 0,
+      "MRP": 2855
+    },
+    {
       "SerialNo": 1582,
       "Type": "IMFL",
       "SuplierName": "WILD BERRIES BOTTLING PRIVATE LIMITED FRANCHISE A B GRAIN SPIRITS PRIVATE LIMITED ",
@@ -6497,6 +6506,42 @@
       "Packing": 750,
       "MSP": 0,
       "MRP": 2170
+    },
+    {
+      "SerialNo": 2112,
+      "Type": "IMFL",
+      "SuplierName": "Mehra Wines Private Limited",
+      "BrandName": "EL CRISTIANO 1761 MEZCAL ARTESANAL CLASE JOVEN(750 ML (6 Bottles))",
+      "Packing": 750,
+      "MSP": 0,
+      "MRP": 20565
+    },
+    {
+      "SerialNo": 2113,
+      "Type": "IMFL",
+      "SuplierName": "Mehra Wines Private Limited",
+      "BrandName": "EL CRISTIANO 1761 TEQUILA CLASE EXTRA ANEJO(750 ML (6 Bottles))",
+      "Packing": 750,
+      "MSP": 0,
+      "MRP": 25360
+    },
+    {
+      "SerialNo": 2114,
+      "Type": "IMFL",
+      "SuplierName": "Mehra Wines Private Limited",
+      "BrandName": "EL CRISTIANO 1761 TEQUILA CLASE REPOSADO(750 ML (6 Bottles))",
+      "Packing": 750,
+      "MSP": 0,
+      "MRP": 13330
+    },
+    {
+      "SerialNo": 2115,
+      "Type": "IMFL",
+      "SuplierName": "Mehra Wines Private Limited",
+      "BrandName": "EL CRISTIANO 1761 TEQUILA CLASE SILVER(750 ML (6 Bottles))",
+      "Packing": 750,
+      "MSP": 0,
+      "MRP": 10835
     },
     {
       "SerialNo": 1330,
@@ -13591,18 +13636,18 @@
       "MRP": 200
     },
     {
-      "SerialNo": 1837,
+      "SerialNo": 1713,
       "Type": "IMFL",
-      "SuplierName": "Rajasthan Liquors Ltd.  (IMFL)",
+      "SuplierName": "Pernod Recard India P. Ltd.",
       "BrandName": "ROYAL STAG DOUBLE DARK PEATY WHISKY(Pints)",
       "Packing": 375,
       "MSP": 0,
       "MRP": 400
     },
     {
-      "SerialNo": 1713,
+      "SerialNo": 1837,
       "Type": "IMFL",
-      "SuplierName": "Pernod Recard India P. Ltd.",
+      "SuplierName": "Rajasthan Liquors Ltd.  (IMFL)",
       "BrandName": "ROYAL STAG DOUBLE DARK PEATY WHISKY(Pints)",
       "Packing": 375,
       "MSP": 0,
@@ -13931,6 +13976,15 @@
       "Packing": 750,
       "MSP": 0,
       "MRP": 82340
+    },
+    {
+      "SerialNo": 2116,
+      "Type": "IMFL",
+      "SuplierName": "Mehra Wines Private Limited",
+      "BrandName": "SCOT'S CHOICE BLENDED SCOTCH WHISKY(700 ML (12 Bottle))",
+      "Packing": 700,
+      "MSP": 0,
+      "MRP": 1675
     },
     {
       "SerialNo": 549,
@@ -14275,6 +14329,15 @@
       "MRP": 130
     },
     {
+      "SerialNo": 2117,
+      "Type": "IMFL",
+      "SuplierName": "Mehra Wines Private Limited",
+      "BrandName": "SIR ORRICK'S TRIPLE DISTILLED IRISH WHISKEY(quarts)",
+      "Packing": 750,
+      "MSP": 0,
+      "MRP": 2455
+    },
+    {
       "SerialNo": 1811,
       "Type": "IMFL",
       "SuplierName": "Spaceman",
@@ -14516,6 +14579,15 @@
       "Packing": 1000,
       "MSP": 0,
       "MRP": 5475
+    },
+    {
+      "SerialNo": 2118,
+      "Type": "IMFL",
+      "SuplierName": "Mehra Wines Private Limited",
+      "BrandName": "SNOB VODKA(700 ML (12 Bottle))",
+      "Packing": 700,
+      "MSP": 0,
+      "MRP": 1905
     },
     {
       "SerialNo": 1730,
@@ -16280,6 +16352,15 @@
       "Packing": 750,
       "MSP": 0,
       "MRP": 3370
+    },
+    {
+      "SerialNo": 2119,
+      "Type": "IMFL",
+      "SuplierName": "Mehra Wines Private Limited",
+      "BrandName": "TRUFFLE GIN(700 ML (6 Bottle))",
+      "Packing": 700,
+      "MSP": 0,
+      "MRP": 10955
     },
     {
       "SerialNo": 1369,
