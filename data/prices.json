@@ -13501,18 +13501,18 @@
       "MRP": 210
     },
     {
-      "SerialNo": 1802,
+      "SerialNo": 1710,
       "Type": "IMFL",
-      "SuplierName": "Pernod Recard India P. Ltd.",
+      "SuplierName": "Rajasthan Liquors Ltd.  (IMFL)",
       "BrandName": "ROYAL STAG BARREL SELECT PREMIER WHISKY(Pints)",
       "Packing": 375,
       "MSP": 0,
       "MRP": 425
     },
     {
-      "SerialNo": 1710,
+      "SerialNo": 1802,
       "Type": "IMFL",
-      "SuplierName": "Rajasthan Liquors Ltd.  (IMFL)",
+      "SuplierName": "Pernod Recard India P. Ltd.",
       "BrandName": "ROYAL STAG BARREL SELECT PREMIER WHISKY(Pints)",
       "Packing": 375,
       "MSP": 0,
@@ -13636,18 +13636,18 @@
       "MRP": 200
     },
     {
-      "SerialNo": 1713,
+      "SerialNo": 1837,
       "Type": "IMFL",
-      "SuplierName": "Pernod Recard India P. Ltd.",
+      "SuplierName": "Rajasthan Liquors Ltd.  (IMFL)",
       "BrandName": "ROYAL STAG DOUBLE DARK PEATY WHISKY(Pints)",
       "Packing": 375,
       "MSP": 0,
       "MRP": 400
     },
     {
-      "SerialNo": 1837,
+      "SerialNo": 1713,
       "Type": "IMFL",
-      "SuplierName": "Rajasthan Liquors Ltd.  (IMFL)",
+      "SuplierName": "Pernod Recard India P. Ltd.",
       "BrandName": "ROYAL STAG DOUBLE DARK PEATY WHISKY(Pints)",
       "Packing": 375,
       "MSP": 0,
@@ -16028,6 +16028,15 @@
       "Packing": 750,
       "MSP": 0,
       "MRP": 36935
+    },
+    {
+      "SerialNo": 2121,
+      "Type": "IMFL",
+      "SuplierName": "Parsan Brothers",
+      "BrandName": "THE MACALLAN HIGHLAND SINGLE MALT SCOTCH WHISKY RARE CASK.(700ml(3 bottle))",
+      "Packing": 700,
+      "MSP": 0,
+      "MRP": 31480
     },
     {
       "SerialNo": 1424,
