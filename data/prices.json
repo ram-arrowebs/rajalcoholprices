@@ -3403,6 +3403,24 @@
       "MRP": 4500
     },
     {
+      "SerialNo": 2123,
+      "Type": "IMFL",
+      "SuplierName": "MODI DISTILERIES (A UNIT OF MODIINDUSTRIES LTD)",
+      "BrandName": "ARTIC MINTY JAMUN BLAST PREMIUM VODKA(Nips-IMFL pet)",
+      "Packing": 180,
+      "MSP": 0,
+      "MRP": 280
+    },
+    {
+      "SerialNo": 2124,
+      "Type": "IMFL",
+      "SuplierName": "MODI DISTILERIES (A UNIT OF MODIINDUSTRIES LTD)",
+      "BrandName": "ARTIC MINTY JAMUN BLAST PREMIUM VODKA(quarts)",
+      "Packing": 750,
+      "MSP": 0,
+      "MRP": 1065
+    },
+    {
       "SerialNo": 1484,
       "Type": "IMFL",
       "SuplierName": "FULLARTON DISTILLERIES PVT LTDGoa.",
@@ -3874,7 +3892,7 @@
       "SerialNo": 1379,
       "Type": "IMFL",
       "SuplierName": "Pernod Recard India P. Ltd.",
-      "BrandName": "BALLANTINE S AGED 12 YEARS BLENDED SCOTCH WHISKY(quarts)",
+      "BrandName": "BALLANTINE S AGED 12 YEARS BLENDED SCOTCH WHISKY.(quarts)",
       "Packing": 750,
       "MSP": 0,
       "MRP": 3390
@@ -4765,7 +4783,7 @@
       "SerialNo": 1975,
       "Type": "IMFL",
       "SuplierName": "Pernod Recard India P. Ltd.",
-      "BrandName": "BRANCOTT ESTATE MARLBOROUGH SAUVIGNON BLANC(750 ML (6 Bottles))",
+      "BrandName": "BRANCOTT ESTATE MARLBOROUGH SAUVIGNON BLANC.(750 ML (6 Bottles))",
       "Packing": 750,
       "MSP": 0,
       "MRP": 3540
@@ -4774,7 +4792,7 @@
       "SerialNo": 1976,
       "Type": "IMFL",
       "SuplierName": "Pernod Recard India P. Ltd.",
-      "BrandName": "BRANCOTT ESTATE PINOT NOIR (13.5%)(750 ML (6 Bottles))",
+      "BrandName": "BRANCOTT ESTATE PINOT NOIR (13.5%).(750 ML (6 Bottles))",
       "Packing": 750,
       "MSP": 0,
       "MRP": 3270
@@ -5656,7 +5674,7 @@
       "SerialNo": 2098,
       "Type": "IMFL",
       "SuplierName": "Pernod Recard India P. Ltd.",
-      "BrandName": "CHIVAS REGAL AGED 12 YEARS BLENDED SCOTCH WHISKY 40%(50 ml (120 Nips))",
+      "BrandName": "CHIVAS REGAL AGED 12 YEARS BLENDED SCOTCH WHISKY 40%.(50 ml (120 Nips))",
       "Packing": 50,
       "MSP": 0,
       "MRP": 230
@@ -5665,7 +5683,7 @@
       "SerialNo": 2099,
       "Type": "IMFL",
       "SuplierName": "Pernod Recard India P. Ltd.",
-      "BrandName": "CHIVAS REGAL AGED 12 YEARS BLENDED SCOTCH WHISKY 40%(quarts)",
+      "BrandName": "CHIVAS REGAL AGED 12 YEARS BLENDED SCOTCH WHISKY 40%.(quarts)",
       "Packing": 750,
       "MSP": 0,
       "MRP": 3145
@@ -5701,7 +5719,7 @@
       "SerialNo": 2103,
       "Type": "IMFL",
       "SuplierName": "Pernod Recard India P. Ltd.",
-      "BrandName": "CHIVAS REGAL AGED 25 YEARS BLENDED SCOTCH WHISKY(700ml(3 bottle))",
+      "BrandName": "CHIVAS REGAL AGED 25 YEARS BLENDED SCOTCH WHISKY.(700ml(3 bottle))",
       "Packing": 700,
       "MSP": 0,
       "MRP": 29430
@@ -8860,7 +8878,7 @@
       "SerialNo": 1989,
       "Type": "IMFL",
       "SuplierName": "Pernod Recard India P. Ltd.",
-      "BrandName": "JAMESON CASKMATES STOUT EDITION IRISH WHISKEY(quarts)",
+      "BrandName": "JAMESON CASKMATES STOUT EDITION IRISH WHISKEY.(quarts)",
       "Packing": 750,
       "MSP": 0,
       "MRP": 2845
@@ -9274,7 +9292,7 @@
       "SerialNo": 2032,
       "Type": "IMFL",
       "SuplierName": "Pernod Recard India P. Ltd.",
-      "BrandName": "KAHLUA LIQUEUR(quarts)",
+      "BrandName": "KAHLUA LIQUEUR.(quarts)",
       "Packing": 750,
       "MSP": 0,
       "MRP": 2355
@@ -13468,7 +13486,7 @@
       "SerialNo": 1788,
       "Type": "IMFL",
       "SuplierName": "Pernod Recard India P. Ltd.",
-      "BrandName": "ROYAL SALUTE WHISKEY 21 YEAR OLD BLENDED SCOTCH WHISKY(700 ML (6 Bottle))",
+      "BrandName": "ROYAL SALUTE WHISKEY 21 YEAR OLD BLENDED SCOTCH WHISKY.(700 ML (6 Bottle))",
       "Packing": 700,
       "MSP": 0,
       "MRP": 16655
@@ -13636,18 +13654,18 @@
       "MRP": 200
     },
     {
-      "SerialNo": 1837,
+      "SerialNo": 1713,
       "Type": "IMFL",
-      "SuplierName": "Rajasthan Liquors Ltd.  (IMFL)",
+      "SuplierName": "Pernod Recard India P. Ltd.",
       "BrandName": "ROYAL STAG DOUBLE DARK PEATY WHISKY(Pints)",
       "Packing": 375,
       "MSP": 0,
       "MRP": 400
     },
     {
-      "SerialNo": 1713,
+      "SerialNo": 1837,
       "Type": "IMFL",
-      "SuplierName": "Pernod Recard India P. Ltd.",
+      "SuplierName": "Rajasthan Liquors Ltd.  (IMFL)",
       "BrandName": "ROYAL STAG DOUBLE DARK PEATY WHISKY(Pints)",
       "Packing": 375,
       "MSP": 0,
@@ -15772,7 +15790,7 @@
       "SerialNo": 1797,
       "Type": "IMFL",
       "SuplierName": "Pernod Recard India P. Ltd.",
-      "BrandName": "THE GLENLIVET 21YO SINGLE MALT SCOTCH WHISKY(700ml(3 bottle))",
+      "BrandName": "THE GLENLIVET 21YO SINGLE MALT SCOTCH WHISKY.(700ml(3 bottle))",
       "Packing": 700,
       "MSP": 0,
       "MRP": 33700
@@ -15808,7 +15826,7 @@
       "SerialNo": 2105,
       "Type": "IMFL",
       "SuplierName": "Pernod Recard India P. Ltd.",
-      "BrandName": "THE GLENLIVET SINGLE MALT SCOTCH WHISKY 18 YEARS OF AGE(700 ML (6 Bottle))",
+      "BrandName": "THE GLENLIVET SINGLE MALT SCOTCH WHISKY 18 YEARS OF AGE.(700 ML (6 Bottle))",
       "Packing": 700,
       "MSP": 0,
       "MRP": 9330
